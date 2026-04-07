@@ -10,10 +10,5 @@ here is what i have done
 
 
 ![Annika TVA Kaskelothvalen](images/TVA-kaskelothvalen.jpg)
-.
-.
-.
 
-
-*picture*
 
