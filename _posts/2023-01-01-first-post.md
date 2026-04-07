@@ -9,7 +9,7 @@ This is my first post
 here is what i have done
 
 
-![Annika TVA Kaskelothvalen](images/ANNIKA TVA kaskelothvalen.jpg)
+![Annika TVA Kaskelothvalen](images/TVA-kaskelothvalen.jpg)
 .
 .
 .
