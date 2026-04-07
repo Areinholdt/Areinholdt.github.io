@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My First Post"
-date: 2026-04-07 
+date: 2026-04-07 12:00:00 -0000 
 categories: blog
 ---
 
