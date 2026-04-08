@@ -180,8 +180,8 @@ permalink: /about/
       <h1>Decoding life<br>in the <em>dark</em></h1>
       <p>
         I am a bioinformatics scientist with a passion for Arctic marine biology and genomics.
-        My research focuses on how Arctic and deep-sea fish survive extreme cold, darkness,
-        and high pressure — by studying not just the genes that code for proteins,
+        My research focuses on how Arctic and deep-sea fish, whales and elasmobranchs survive extreme cold, darkness,
+        and high pressure --- by studying not just the genes that code for proteins,
         but the 98% of the genome that most studies ignore entirely.
       </p>
 
@@ -194,13 +194,17 @@ permalink: /about/
       <p>
         With a background spanning fieldwork at sea, clean-lab DNA work, and large-scale
         computational analysis, I bridge the ocean and the terminal. I have participated in
-        Arctic surveys aboard R/V Tarajoq and R/V Sanna, led seal-handling expeditions,
-        and sailed to the Gully Marine Protected Area off Nova Scotia to study beaked whales.
+        Arctic fish and marine mammal surveys, led seal-handling expeditions, and worked 
+        extensively with marine mammals in both field and post-mortem settings.
+        My experience includes whale necropsies, biopsy sampling, and photo-identification of beaked whales.
+        In addition, I am proficient in identifying Arctic fish and shark taxa,
+        combining hands-on field expertise with genomic research to better
+        understand adaptation in extreme environments.
       </p>
       <p>
         My bioinformatics background covers population genomics, variant calling, phylogenetics,
-        and AI-driven analyses. I previously worked as an IT consultant at Netcompany, where I
-        applied data engineering and workflow automation to industrial problems — skills I now
+        and AI-driven analyses. I previously worked as an IT consultant, where I
+        applied data engineering and workflow automation to industrial problems --- skills I now
         bring back to evolutionary biology.
       </p>
 
