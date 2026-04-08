@@ -61,6 +61,7 @@ permalink: /about/
     margin-bottom: 1.2rem;
     display: flex; align-items: center; gap: 0.7rem;
   }
+  
   .about-intro-label::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
   .about-intro h1 {
     font-family: var(--serif);
@@ -166,6 +167,12 @@ permalink: /about/
         <img src="/images/portrait.jpg" alt="Annika Reinholdt">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
       </div>
+
+    <div class="photo-accent">
+  <div class="accent-visual">
+    <span>Arctic field data</span>
+  </div>
+</div>
 
     <div class="about-intro">
       <div class="about-intro-label">About me</div>
