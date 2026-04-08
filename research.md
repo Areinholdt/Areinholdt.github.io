@@ -51,15 +51,6 @@ permalink: /research/
   .collab-row { display:flex;flex-wrap:wrap;gap:1.2rem; }
   .collab { background:var(--card);border:1px solid var(--border);padding:.7rem 1.2rem;font-size:11px;color:var(--muted); }
 
-  /* PUBLICATION */
-  .pub-section { margin-bottom:3.5rem; }
-  .pub-item { padding:1.2rem 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:50px 1fr;gap:1.2rem;align-items:start; }
-  .pub-year { font-size:10px;color:var(--accent);letter-spacing:.1em; }
-  .pub-title { font-family:var(--serif);font-size:1.05rem;font-weight:400;color:var(--ink);margin-bottom:.2rem; }
-  .pub-info { font-size:11px;color:var(--muted); }
-  .badge { display:inline-block;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:.15rem .45rem;margin-left:.5rem; }
-  .badge-gold { background:rgba(212,168,90,0.12);color:var(--gold);border:1px solid rgba(212,168,90,0.25); }
-  .badge-teal { background:rgba(62,207,176,0.1);color:var(--teal);border:1px solid rgba(62,207,176,0.2); }
 
   @media(max-width:768px){
     .rw { padding:8rem 1.5rem 4rem; }
@@ -210,32 +201,6 @@ permalink: /research/
       <span class="collab">who who who</span>
       <span class="collab">who who who</span>
       <span class="collab">who who who</span>
-    </div>
-  </div>
-
-  <!-- PUBLICATION -->
-  <div class="pub-section">
-    <div class="section-label">Publications &amp; presentations</div>
-    <div class="pub-item">
-      <span class="pub-year">2026</span>
-      <div>
-        <div class="pub-title">First record of <em>Chimaera lusitanicus</em> in Greenland waters <span class="badge badge-teal">In review</span></div>
-        <div class="pub-info">Reinholdt, A.C. et al. · Cybium, International Journal of Ichthyology</div>
-      </div>
-    </div>
-    <div class="pub-item">
-      <span class="pub-year">2024</span>
-      <div>
-        <div class="pub-title">The Genomics of Kalmarsund Harbour Seals — Talk</div>
-        <div class="pub-info">Danish Marine Mammal Symposium (DMMS)</div>
-      </div>
-    </div>
-    <div class="pub-item">
-      <span class="pub-year">2023</span>
-      <div>
-        <div class="pub-title">New research platform for studying Northern bottlenose whales in the Arctic — Poster <span class="badge badge-gold">Best poster</span></div>
-        <div class="pub-info">European Cetacean Society Conference (ECS)</div>
-      </div>
     </div>
   </div>
 
