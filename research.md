@@ -204,12 +204,12 @@ permalink: /research/
   <div class="collabs">
     <h3>Collaborators &amp; institutions</h3>
     <div class="collab-row">
-      <span class="collab">Globe Institute, University of Copenhagen</span>
+      <span class="collab">who who who</span>
       <span class="collab">Natural History Museum of Denmark</span>
-      <span class="collab">Greenland Institute of Natural Resources</span>
-      <span class="collab">Yggdrasil Genome Centre</span>
-      <span class="collab">Vertebrate Genomes Project</span>
-      <span class="collab">Darwin Tree of Life</span>
+      <span class="collab">who who who</span>
+      <span class="collab">who who who</span>
+      <span class="collab">who who who</span>
+      <span class="collab">who who who</span>
     </div>
   </div>
 
