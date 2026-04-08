@@ -169,10 +169,11 @@ permalink: /about/
       </div>
 
     <div class="photo-accent">
-  <div class="accent-visual">
-    <span>Arctic field data</span>
-  </div>
-</div>
+        <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
+        <span>Field photo</span>
+      </div>
+    </div>
 
     <div class="about-intro">
       <div class="about-intro-label">About me</div>
