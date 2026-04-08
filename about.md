@@ -169,7 +169,7 @@ permalink: /about/
       </div>
 
     <div class="photo-accent">
-        <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale">
+        <img src="/images/shark_annika1.jpg" alt="Cat shark">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
         <span>Field photo</span>
       </div>
