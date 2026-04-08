@@ -17,7 +17,7 @@ permalink: /contact/
   }
   .contact-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
   .contact-intro h1 {
-    font-family:var(--font-serif);
+    font-family:var(--serif);
     font-size: clamp(2.5rem, 4vw, 3.8rem);
     font-weight:300; line-height:1.1; color:var(--ink); margin-bottom:1.2rem;
   }
@@ -58,7 +58,7 @@ permalink: /contact/
     border: 1px solid var(--border);
     color: var(--ink);
     padding: .75rem 1rem;
-    font-family: var(--font-mono);
+    font-family: var(--mono);
     font-size: 12.5px;
     font-weight: 300;
     outline: none;

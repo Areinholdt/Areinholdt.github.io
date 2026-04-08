@@ -4,268 +4,243 @@ title: Research
 permalink: /research/
 ---
 <style>
-  .research-wrap {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 9rem 4rem 6rem;
-    position: relative; z-index: 1;
-  }
-  .research-header { margin-bottom: 4rem; }
-  .research-eyebrow {
-    font-size: 10px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
-    margin-bottom:1rem; display:flex; align-items:center; gap:.8rem;
-  }
-  .research-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
-  .research-header h1 {
-    font-family: var(--font-serif);
-    font-size: clamp(2.5rem, 4vw, 3.8rem);
-    font-weight: 300; line-height:1.1; color:var(--ink); margin-bottom:1.2rem;
-  }
-  .research-header h1 em { font-style:italic; color:var(--accent-bright); }
-  .research-header p { color:var(--ink-muted); font-size:12.5px; line-height:2.1; max-width:620px; }
+  .rw { max-width:1000px; margin:0 auto; padding:9rem 3.5rem 6rem; position:relative; z-index:1; }
 
-  /* PROJECT CARDS */
-  .project-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    padding: 2.8rem;
-    margin-bottom: 1.5rem;
-    display: grid;
-    grid-template-columns: 70px 1fr;
-    gap: 2rem;
-    align-items: start;
-    transition: border-color 0.25s;
-  }
-  .project-card:hover { border-color: var(--accent); }
-  .project-num {
-    font-family: var(--font-serif);
-    font-size: 4rem; color:var(--ink-faint); line-height:1; font-weight:300;
-  }
-  .project-tag {
-    font-size: 9px; letter-spacing:.18em; text-transform:uppercase;
-    color: var(--accent); border: 1px solid var(--accent-glow);
-    padding: .2rem .6rem; display:inline-block; margin-bottom:.8rem;
-  }
-  .project-card h2 {
-    font-family: var(--font-serif);
-    font-size: 1.7rem; font-weight:400; color:var(--ink); margin-bottom:.8rem; line-height:1.2;
-  }
-  .project-card p { color:var(--ink-muted); font-size:12.5px; line-height:2.1; margin-bottom:1rem; }
-  .project-methods {
-    display: flex; flex-wrap:wrap; gap:.5rem; margin-top:1rem;
-  }
-  .method-tag {
-    font-size: 9.5px; letter-spacing:.1em; text-transform:uppercase;
-    background: rgba(58,143,196,0.08); color:var(--ink-muted);
-    border: 1px solid var(--border); padding:.2rem .55rem;
-  }
-  .project-collab {
-    margin-top: 1.2rem; padding-top:1rem; border-top:1px solid var(--border);
-    font-size: 11px; color:var(--ink-faint); letter-spacing:.05em;
-  }
-  .project-collab strong { color:var(--ink-muted); font-weight:400; }
+  .rw-header { margin-bottom:4.5rem; }
+  .rw-eyebrow { font-size:9px;letter-spacing:.35em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:.7rem;margin-bottom:1.2rem; }
+  .rw-eyebrow::before { content:'';width:20px;height:1px;background:var(--teal);display:block; }
+  .rw-header h1 { font-family:var(--serif);font-size:clamp(2.5rem,4.5vw,4rem);font-weight:400;line-height:1.08;color:var(--ink);margin-bottom:1.2rem; }
+  .rw-header h1 em { font-style:italic;color:var(--bright); }
+  .rw-header .lead { color:var(--muted);font-size:12.5px;line-height:2.2;max-width:640px; }
 
-  /* PUBLICATIONS */
-  .pubs-section { margin-top: 5rem; }
-  .pubs-label {
-    font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
-    margin-bottom:2rem; display:flex; align-items:center; gap:.8rem;
+  /* GENOME BAR */
+  .genome-vis {
+    background:var(--card); border:1px solid var(--border);
+    padding:2rem; margin-bottom:3rem; display:grid;
+    grid-template-columns:1fr 1fr; gap:2rem; align-items:center;
   }
-  .pubs-label::after { content:''; flex:1; height:1px; background:var(--border); max-width:160px; }
-  .pub-item {
-    padding: 1.5rem 0; border-bottom: 1px solid var(--border);
-    display: grid; grid-template-columns: 60px 1fr; gap: 1.5rem; align-items:start;
-  }
-  .pub-year { font-size:11px; color:var(--accent); letter-spacing:.1em; }
-  .pub-title { font-family:var(--font-serif); font-size:1.1rem; font-weight:400; color:var(--ink); margin-bottom:.3rem; }
-  .pub-journal { font-size:11.5px; color:var(--ink-muted); }
-  .pub-status {
-    display:inline-block; font-size:9px; letter-spacing:.15em; text-transform:uppercase;
-    background: rgba(200,169,110,0.12); color:var(--gold);
-    border:1px solid rgba(200,169,110,0.25); padding:.2rem .5rem; margin-left:.6rem;
-  }
+  .gv-left h3 { font-family:var(--serif);font-size:1.3rem;font-weight:400;color:var(--ink);margin-bottom:.8rem;font-style:italic; }
+  .gv-left p { color:var(--muted);font-size:12px;line-height:1.9; }
+  .gv-bars { display:flex;flex-direction:column;gap:.7rem; }
+  .gv-row { display:flex;align-items:center;gap:.8rem; }
+  .gv-label { font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);min-width:100px; }
+  .gv-track { flex:1;height:6px;background:var(--surface); }
+  .gv-fill { height:100%; }
+  .gv-pct { font-size:10px;min-width:36px;text-align:right; }
 
-  @media (max-width:768px) {
-    .research-wrap { padding:8rem 1.5rem 4rem; }
-    .project-card { grid-template-columns:1fr; gap:1rem; padding:2rem; }
-    .project-num { font-size:2.5rem; }
+  /* OBJECTIVES */
+  .objectives { margin-bottom:3.5rem; }
+  .obj-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem; }
+  .obj-card { background:var(--card);border:1px solid var(--border);padding:1.8rem; }
+  .obj-num { font-family:var(--serif);font-size:2.5rem;color:var(--faint);line-height:1;margin-bottom:.5rem;font-weight:400; }
+  .obj-title { font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-bottom:.7rem; }
+  .obj-p { color:var(--muted);font-size:11.5px;line-height:1.9; }
+
+  /* METHODOLOGY */
+  .methodology { margin-bottom:3.5rem; }
+  .meth-grid { display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin-top:1.5rem; }
+  .meth-card { background:var(--surface);border:1px solid var(--border);padding:1.5rem; }
+  .meth-card h4 { font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:.7rem; }
+  .meth-card p { color:var(--muted);font-size:11.5px;line-height:1.9; }
+  .tags { display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.8rem; }
+  .tag { font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);background:rgba(77,166,224,0.06);border:1px solid var(--border);padding:.15rem .45rem; }
+
+  /* COLLABORATORS */
+  .collabs { background:var(--bg2);border:1px solid var(--border);padding:2rem;margin-bottom:3.5rem; }
+  .collabs h3 { font-size:9px;letter-spacing:.25em;text-transform:uppercase;color:var(--accent);margin-bottom:1.2rem; }
+  .collab-row { display:flex;flex-wrap:wrap;gap:1.2rem; }
+  .collab { background:var(--card);border:1px solid var(--border);padding:.7rem 1.2rem;font-size:11px;color:var(--muted); }
+
+  /* PUBLICATION */
+  .pub-section { margin-bottom:3.5rem; }
+  .pub-item { padding:1.2rem 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:50px 1fr;gap:1.2rem;align-items:start; }
+  .pub-year { font-size:10px;color:var(--accent);letter-spacing:.1em; }
+  .pub-title { font-family:var(--serif);font-size:1.05rem;font-weight:400;color:var(--ink);margin-bottom:.2rem; }
+  .pub-info { font-size:11px;color:var(--muted); }
+  .badge { display:inline-block;font-size:9px;letter-spacing:.12em;text-transform:uppercase;padding:.15rem .45rem;margin-left:.5rem; }
+  .badge-gold { background:rgba(212,168,90,0.12);color:var(--gold);border:1px solid rgba(212,168,90,0.25); }
+  .badge-teal { background:rgba(62,207,176,0.1);color:var(--teal);border:1px solid rgba(62,207,176,0.2); }
+
+  @media(max-width:768px){
+    .rw { padding:8rem 1.5rem 4rem; }
+    .genome-vis { grid-template-columns:1fr; }
+    .obj-grid { grid-template-columns:1fr; }
+    .meth-grid { grid-template-columns:1fr; }
   }
 </style>
 
-<div class="research-wrap">
-  <div class="research-header">
-    <div class="research-eyebrow">Research</div>
+<div class="rw">
+
+  <div class="rw-header">
+    <div class="rw-eyebrow">PhD Research Project</div>
     <h1>Deep, Dark<br>and <em>Cold</em></h1>
-    <p>
-      My work focuses on the genomic mechanisms that enable Arctic and deep-sea fish
-      to survive extreme environments — combining comparative genomics, AI-based protein
-      modelling, and deep learning on non-coding DNA to uncover adaptations invisible
-      to conventional analysis.
+    <p class="lead">
+      Convergent Genomics of Arctic Marine Taxa — investigating how Arctic and deep-sea fish
+      survive extreme pressure, cold, and darkness by exploring the 98% of the genome
+      that most science has never looked at.
     </p>
   </div>
 
-  <!-- PROJECT 1 -->
-  <div class="project-card">
-    <div class="project-num">01</div>
-    <div>
-      <span class="project-tag">PhD Research · 2025–2028 · Active</span>
-      <h2>Convergent Genomics of Arctic Marine Taxa</h2>
+  <!-- GENOME VISUALISATION -->
+  <div class="genome-vis">
+    <div class="gv-left">
+      <h3>The unexplored 98%</h3>
       <p>
-        This project investigates how Arctic and deep-sea fish survive in extreme environments
-        characterised by high pressure, near-zero temperatures, and complete darkness.
-        A central question is whether unrelated species independently evolve the same
-        genomic solutions — <em>convergent evolution</em> at the molecular level.
+        Most genomic studies focus on protein-coding genes — only ~2% of the genome.
+        The other 98%, non-coding regulatory DNA, controls when and where genes are
+        expressed. This project is one of the first to study this "dark genome"
+        in Arctic deep-sea species.
       </p>
-      <p>
-        Most genomic studies focus on protein-coding regions, which represent only ~2%
-        of the genome. This project goes further by exploring the 98% "dark genome"
-        — non-coding regulatory DNA that controls how and when genes are expressed.
-        By integrating coding genes, non-coding elements, and protein structures,
-        the project builds a comprehensive picture of adaptation to one of Earth's
-        most extreme environments.
-      </p>
-      <p>
-        The dataset will include 15–20 deep-sea species genomes alongside shallow-water
-        relatives, combining existing high-quality assemblies with newly sequenced Arctic
-        taxa generated using PacBio/Hi-C pipelines at the Yggdrasil laboratory.
-        New assemblies will be contributed to open-access initiatives including the
-        Vertebrate Genomes Project and Darwin Tree of Life.
-      </p>
-      <div class="project-methods">
-        <span class="method-tag">Comparative genomics</span>
-        <span class="method-tag">AlphaFold3</span>
-        <span class="method-tag">FoldSeek</span>
-        <span class="method-tag">dN/dS selection tests</span>
-        <span class="method-tag">PhastCons</span>
-        <span class="method-tag">phyloHMM</span>
-        <span class="method-tag">Deep learning</span>
-        <span class="method-tag">PacBio / Hi-C</span>
-        <span class="method-tag">Phylogenomics</span>
+    </div>
+    <div class="gv-bars">
+      <div class="gv-row">
+        <span class="gv-label">Coding DNA</span>
+        <div class="gv-track"><div class="gv-fill" style="width:2%;background:var(--teal);"></div></div>
+        <span class="gv-pct" style="color:var(--teal);">~2%</span>
       </div>
-      <div class="project-collab">
-        <strong>Collaborators:</strong> Globe Institute, UCPH · Natural History Museum of Denmark ·
-        Greenland Institute of Natural Resources · Yggdrasil Genome Centre
+      <div class="gv-row">
+        <span class="gv-label">Dark genome</span>
+        <div class="gv-track"><div class="gv-fill" style="width:98%;background:var(--accent);opacity:.5;"></div></div>
+        <span class="gv-pct" style="color:var(--accent);">~98%</span>
+      </div>
+      <div style="font-size:9px;color:var(--faint);margin-top:.3rem;letter-spacing:.08em;">This project's focus — largely unmapped from an evolutionary perspective</div>
+    </div>
+  </div>
+
+  <!-- BACKGROUND -->
+  <div style="margin-bottom:3.5rem;">
+    <div class="section-label">Background</div>
+    <p style="color:var(--muted);font-size:12.5px;line-height:2.2;max-width:760px;margin-bottom:1rem;">
+      The Arctic is changing fast. Boreal species are moving north, and endemic Arctic taxa
+      are under growing pressure — many hypothesised to seek refuge in the deep ocean,
+      a relatively stable environment of high pressure, low oxygen, and total darkness.
+    </p>
+    <p style="color:var(--muted);font-size:12.5px;line-height:2.2;max-width:760px;margin-bottom:1rem;">
+      While physiological adaptations to these conditions have been explored, the genomic
+      mechanisms — particularly within non-coding DNA — remain largely unknown.
+      A key open question is whether the same genomic solutions evolved independently
+      across unrelated deep-sea lineages: <em style="color:var(--bright);">convergent evolution at the molecular level.</em>
+    </p>
+    <p style="color:var(--muted);font-size:12.5px;line-height:2.2;max-width:760px;">
+      This project addresses that gap by combining coding and non-coding genomic regions,
+      protein structure modelling, and phylogenetic diversification analyses —
+      applied specifically to Arctic taxa, an understudied group with direct relevance
+      to climate change prediction and conservation.
+    </p>
+  </div>
+
+  <!-- RESEARCH OBJECTIVES -->
+  <div class="objectives">
+    <div class="section-label">Research objectives</div>
+    <div class="obj-grid">
+      <div class="obj-card">
+        <div class="obj-num">01</div>
+        <div class="obj-title">Genomic drivers of adaptation</div>
+        <p class="obj-p">
+          Identify coding genes under selection and conserved or accelerated non-coding
+          regions across Arctic deep-sea species. Reveal the genetic and regulatory
+          factors enabling survival at high pressure, low temperature, and in darkness.
+        </p>
+      </div>
+      <div class="obj-card">
+        <div class="obj-num">02</div>
+        <div class="obj-title">Protein structure &amp; novelty</div>
+        <p class="obj-p">
+          Explore whether adaptation is driven by large evolutionary leaps or
+          subtle shifts in protein structure. Link DNA changes to their biological
+          effects using AlphaFold3 and FoldSeek structural comparison.
+        </p>
+      </div>
+      <div class="obj-card">
+        <div class="obj-num">03</div>
+        <div class="obj-title">Genomics &amp; diversification</div>
+        <p class="obj-p">
+          Discover why some Arctic deep-sea lineages are more successful than others.
+          Combine evolutionary trees and fossil records to test which genomic
+          and environmental factors help lineages thrive in extreme conditions.
+        </p>
       </div>
     </div>
   </div>
 
-  <!-- PROJECT 2 -->
-  <div class="project-card">
-    <div class="project-num">02</div>
-    <div>
-      <span class="project-tag">MSc Thesis · 2024–2025 · Completed</span>
-      <h2>Population Genomics of Kalmarsund Harbour Seals</h2>
-      <p>
-        My master's thesis investigated the population structure and conservation genetics
-        of harbour seals (<em>Phoca vitulina</em>) in the Kalmarsund strait — a population
-        geographically isolated from neighbouring Baltic and North Sea populations.
-        Using whole-genome data, I characterised levels of genetic diversity, inbreeding,
-        and connectivity, with direct implications for conservation management.
-      </p>
-      <div class="project-methods">
-        <span class="method-tag">Population genomics</span>
-        <span class="method-tag">Variant calling</span>
-        <span class="method-tag">Admixture analysis</span>
-        <span class="method-tag">ROH analysis</span>
-        <span class="method-tag">Python · R</span>
+  <!-- METHODOLOGY -->
+  <div class="methodology">
+    <div class="section-label">Methodology</div>
+    <div class="meth-grid">
+      <div class="meth-card">
+        <h4>Genome dataset</h4>
+        <p>15–20 deep-sea species genomes alongside shallow-water relatives. New chromosome-level assemblies generated using PacBio/Hi-C pipelines at Yggdrasil laboratory. Contributed to the Vertebrate Genomes Project and Darwin Tree of Life.</p>
+        <div class="tags"><span class="tag">PacBio</span><span class="tag">Hi-C</span><span class="tag">Yggdrasil</span></div>
       </div>
-      <div class="project-collab">
-        <strong>Supervisor:</strong> Morten Tange Olsen Group, Globe Institute, UCPH ·
-        Grade: 12
+      <div class="meth-card">
+        <h4>Coding region analysis</h4>
+        <p>Selection tested using dN/dS ratios and site-specific models to detect accelerated or conserved genes. Gene ontology and pathway analyses link genes to biological functions relevant to deep-sea adaptation.</p>
+        <div class="tags"><span class="tag">dN/dS</span><span class="tag">Gene ontology</span><span class="tag">Pathway analysis</span></div>
       </div>
-    </div>
-  </div>
-
-  <!-- PROJECT 3 -->
-  <div class="project-card">
-    <div class="project-num">03</div>
-    <div>
-      <span class="project-tag">Pilot Project · 2023 · Completed</span>
-      <h2>AI-Based By-Catch Assessment on R/V Tarajoq</h2>
-      <p>
-        An independent pilot project applying machine learning and computer vision to
-        automate by-catch assessment during Arctic trawl surveys aboard the
-        Greenland Institute of Natural Resources research vessel R/V Tarajoq.
-        Integrated image data with fisheries databases to test ML workflows for
-        species identification and count estimation in real field conditions.
-      </p>
-      <div class="project-methods">
-        <span class="method-tag">Machine learning</span>
-        <span class="method-tag">Computer vision</span>
-        <span class="method-tag">Python</span>
-        <span class="method-tag">Fisheries databases</span>
+      <div class="meth-card">
+        <h4>Non-coding DNA</h4>
+        <p>Deep learning models including PhastCons, phyloHMM, and DeepCons identify conserved and accelerated elements in the regulatory "dark genome" — a major unexplored frontier in Arctic evolutionary biology.</p>
+        <div class="tags"><span class="tag">PhastCons</span><span class="tag">phyloHMM</span><span class="tag">DeepCons</span><span class="tag">Deep learning</span></div>
       </div>
-      <div class="project-collab">
-        <strong>Institution:</strong> Greenland Institute of Natural Resources (GINR) · Grade: 12
+      <div class="meth-card">
+        <h4>Protein structure</h4>
+        <p>3D structures predicted with AlphaFold3 and compared across species using FoldSeek. Structural metrics — stability, domain rearrangements, interface changes — quantify whether molecular changes are subtle or represent major evolutionary leaps.</p>
+        <div class="tags"><span class="tag">AlphaFold3</span><span class="tag">FoldSeek</span></div>
+      </div>
+      <div class="meth-card">
+        <h4>Phylogenomics</h4>
+        <p>Phylogenetic relationships reconstructed from genome-wide data. Diversification rates estimated and linked to deep-sea colonisation events and species richness. Environmental variables integrated to examine correlations with genomic change.</p>
+        <div class="tags"><span class="tag">Phylogenomics</span><span class="tag">Diversification rates</span></div>
+      </div>
+      <div class="meth-card">
+        <h4>AI &amp; machine learning</h4>
+        <p>AI-driven analyses applied across regulatory and protein levels. Background includes AI-based fisheries monitoring and professional experience deploying ML workflows in industrial settings at Netcompany.</p>
+        <div class="tags"><span class="tag">Machine learning</span><span class="tag">Python</span><span class="tag">AWS</span></div>
       </div>
     </div>
   </div>
 
-  <!-- PROJECT 4 -->
-  <div class="project-card">
-    <div class="project-num">04</div>
-    <div>
-      <span class="project-tag">BSc Thesis · 2022 · Completed</span>
-      <h2>Genetic Structure in the Common Warthog</h2>
-      <p>
-        Bachelor's thesis investigating population genetic structure across the range of
-        the common warthog (<em>Phacochoerus africanus</em>) using genomic data.
-        The study explored how geography and ecology shape genetic differentiation
-        across African populations.
-      </p>
-      <div class="project-methods">
-        <span class="method-tag">Population genetics</span>
-        <span class="method-tag">Phylogenetics</span>
-        <span class="method-tag">R · Python</span>
-      </div>
-      <div class="project-collab">
-        <strong>Institution:</strong> University of Copenhagen · Grade: 12
-      </div>
+  <!-- COLLABORATORS -->
+  <div class="collabs">
+    <h3>Collaborators &amp; institutions</h3>
+    <div class="collab-row">
+      <span class="collab">Globe Institute, University of Copenhagen</span>
+      <span class="collab">Natural History Museum of Denmark</span>
+      <span class="collab">Greenland Institute of Natural Resources</span>
+      <span class="collab">Yggdrasil Genome Centre</span>
+      <span class="collab">Vertebrate Genomes Project</span>
+      <span class="collab">Darwin Tree of Life</span>
     </div>
   </div>
 
-  <!-- PUBLICATIONS -->
-  <div class="pubs-section">
-    <div class="pubs-label">Publications &amp; presentations</div>
-
+  <!-- PUBLICATION -->
+  <div class="pub-section">
+    <div class="section-label">Publications &amp; presentations</div>
     <div class="pub-item">
       <span class="pub-year">2026</span>
       <div>
-        <div class="pub-title">
-          First record of the Portuguese rabbitfish <em>Chimaera lusitanicus</em>
-          (Chimaeridae) in Greenland waters
-          <span class="pub-status">In review</span>
-        </div>
-        <div class="pub-journal">Reinholdt, A.C. et al. · Cybium, International Journal of Ichthyology</div>
+        <div class="pub-title">First record of <em>Chimaera lusitanicus</em> in Greenland waters <span class="badge badge-teal">In review</span></div>
+        <div class="pub-info">Reinholdt, A.C. et al. · Cybium, International Journal of Ichthyology</div>
       </div>
     </div>
-
     <div class="pub-item">
       <span class="pub-year">2024</span>
       <div>
-        <div class="pub-title">The Genomics of Kalmarsund Harbour Seals</div>
-        <div class="pub-journal">Talk · Danish Marine Mammal Symposium (DMMS)</div>
+        <div class="pub-title">The Genomics of Kalmarsund Harbour Seals — Talk</div>
+        <div class="pub-info">Danish Marine Mammal Symposium (DMMS)</div>
       </div>
     </div>
-
     <div class="pub-item">
       <span class="pub-year">2023</span>
       <div>
-        <div class="pub-title">Uncovering the Genetic Structure of the Kalmarsund Harbour Seals</div>
-        <div class="pub-journal">Talk · Evolution and Population Genetics in Denmark (EPIC) Conference</div>
-      </div>
-    </div>
-
-    <div class="pub-item">
-      <span class="pub-year">2023</span>
-      <div>
-        <div class="pub-title">
-          New research platform offers unprecedented opportunities for studying
-          Northern bottlenose whales in the Arctic
-          <span class="pub-status">Best poster award</span>
-        </div>
-        <div class="pub-journal">Poster · European Cetacean Society Conference (ECS)</div>
+        <div class="pub-title">New research platform for studying Northern bottlenose whales in the Arctic — Poster <span class="badge badge-gold">Best poster</span></div>
+        <div class="pub-info">European Cetacean Society Conference (ECS)</div>
       </div>
     </div>
   </div>
+
+  <div style="text-align:center;padding-top:1rem;">
+    <a href="/contact" class="btn btn-primary">Get in touch about collaborating</a>
+  </div>
+
 </div>

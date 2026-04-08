@@ -18,7 +18,7 @@ permalink: /cv/
   }
   .cv-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
   .cv-top h1 {
-    font-family:var(--font-serif);
+    font-family:var(--serif);
     font-size: clamp(2.5rem, 4vw, 3.8rem);
     font-weight:300; line-height:1.1; color:var(--ink);
   }
@@ -31,7 +31,7 @@ permalink: /cv/
     gap: 3.5rem 4rem;
   }
   .cv-section h2 {
-    font-family:var(--font-serif);
+    font-family:var(--serif);
     font-size:1.3rem; font-weight:400; color:var(--gold);
     margin-bottom:1.5rem; letter-spacing:.04em;
     padding-bottom:.8rem; border-bottom:1px solid var(--border);
@@ -46,7 +46,7 @@ permalink: /cv/
   /* FULL WIDTH SECTIONS */
   .cv-full { margin-top:3rem; }
   .cv-full h2 {
-    font-family:var(--font-serif);
+    font-family:var(--serif);
     font-size:1.3rem; font-weight:400; color:var(--gold);
     margin-bottom:1.5rem; letter-spacing:.04em;
     padding-bottom:.8rem; border-bottom:1px solid var(--border);

@@ -3,17 +3,7 @@ description: Bioinformatics scientist exploring Arctic and deep-sea genomics
 url: "https://areinholdt.github.io"
 baseurl: ""
 author: Annika Caroline Reinholdt
-email: annika.reinholdt@sund.ku.dk
-
-# Build
+email: ozreinholdt@gmail.com
 markdown: kramdown
 highlighter: rouge
 permalink: /:year/:month/:day/:title/
-
-# Navigation
-header_pages:
-  - about.md
-  - research.md
-  - posts.md
-  - cv.md
-  - contact.md

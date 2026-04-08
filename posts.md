@@ -14,7 +14,7 @@ permalink: /posts/
   }
   .posts-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
   .posts-header h1 {
-    font-family: var(--font-serif);
+    font-family: var(--serif);
     font-size: clamp(2.5rem, 4vw, 3.8rem);
     font-weight:300; line-height:1.1; color:var(--ink); margin-bottom:1rem;
   }
@@ -40,7 +40,7 @@ permalink: /posts/
     text-transform:uppercase; margin-bottom:1rem; display:block;
   }
   .post-title {
-    font-family: var(--font-serif);
+    font-family: var(--serif);
     font-size: 1.3rem; font-weight:400; color:var(--ink);
     line-height:1.3; margin-bottom:.7rem;
   }

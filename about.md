@@ -63,7 +63,7 @@ permalink: /about/
   }
   .about-intro-label::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
   .about-intro h1 {
-    font-family: var(--font-serif);
+    font-family: var(--serif);
     font-size: clamp(2.5rem, 4vw, 3.8rem);
     font-weight: 300;
     line-height: 1.1;
@@ -84,7 +84,7 @@ permalink: /about/
     background: var(--bg-card);
   }
   blockquote p {
-    font-family: var(--font-serif);
+    font-family: var(--serif);
     font-size: 1.1rem;
     font-style: italic;
     color: var(--ink);
@@ -96,7 +96,7 @@ permalink: /about/
     margin-top: 2.5rem; padding-top: 2rem;
     border-top: 1px solid var(--border);
   }
-  .stat-num { font-family: var(--font-serif); font-size: 2.2rem; color: var(--accent-bright); display:block; line-height:1; }
+  .stat-num { font-family: var(--serif); font-size: 2.2rem; color: var(--accent-bright); display:block; line-height:1; }
   .stat-label { font-size: 10px; letter-spacing: .15em; color: var(--ink-faint); text-transform: uppercase; margin-top: .4rem; display:block; }
 
   /* PHOTO GALLERY */
@@ -163,7 +163,7 @@ permalink: /about/
   <div class="about-top">
     <div class="photo-stack">
       <div class="photo-main">
-        <img src="/images/your-portrait.jpg" alt="Annika Reinholdt">
+        <!-- <img src="/images/your-portrait.jpg" alt="Annika Reinholdt"> -->
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
         <span>Add your portrait photo</span>
       </div>
