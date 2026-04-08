@@ -209,8 +209,8 @@ permalink: /about/
       </p>
 
       <div class="stat-row">
-        <div><span class="stat-num">4</span><span class="stat-label">Expeditions</span></div>
-        <div><span class="stat-num">2</span><span class="stat-label">Research vessels</span></div>
+        <div><span class="stat-num">12+</span><span class="stat-label">Months Sea & Expedition time</span></div>
+        <div><span class="stat-num">3</span><span class="stat-label">Research vessels</span></div>
         <div><span class="stat-num">1</span><span class="stat-label">Best poster award</span></div>
       </div>
     </div>
