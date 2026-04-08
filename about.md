@@ -187,7 +187,7 @@ permalink: /about/
 
       <blockquote>
         <p>"During an Arctic research expedition, I held a rare deep-sea anglerfish in my hands.
-        Its bizarre appearance and intact light organ left me fascinated. That encounter sparked
+        Its bizarre appearance and intact light organ left me fascinated me deeply. That encounter sparked
         my ambition to understand how species survive and adapt to extreme environments."</p>
       </blockquote>
 
