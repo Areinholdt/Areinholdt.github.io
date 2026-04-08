@@ -6,203 +6,142 @@
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --ink: #e8edf4;
-      --ink-muted: #8fa3bc;
-      --ink-faint: #4a607a;
-      --bg: #050d18;
-      --bg-surface: #0a1628;
-      --bg-card: #0f1f35;
-      --accent: #3a8fc4;
-      --accent-glow: #1a5f8a;
-      --accent-bright: #7ec8e3;
-      --gold: #c8a96e;
-      --border: rgba(58,143,196,0.18);
-      --font-serif: 'Cormorant Garamond', Georgia, serif;
-      --font-mono: 'DM Mono', monospace;
+      --bg:      #02080f;
+      --bg2:     #040e1c;
+      --bg3:     #061528;
+      --surface: #071b34;
+      --card:    #0a2040;
+      --border:  rgba(80,160,220,0.12);
+      --border2: rgba(80,160,220,0.22);
+      --ink:     #d4e8f8;
+      --muted:   #6a96ba;
+      --faint:   #2a4a6a;
+      --accent:  #4da6e0;
+      --bright:  #8fd4f5;
+      --teal:    #3ecfb0;
+      --gold:    #d4a85a;
+      --serif:   'Playfair Display', Georgia, serif;
+      --mono:    'Space Mono', monospace;
     }
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       background: var(--bg);
       color: var(--ink);
-      font-family: var(--font-mono);
-      font-size: 13px;
-      font-weight: 300;
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 400;
       line-height: 1.8;
       min-height: 100vh;
     }
 
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 80% 60% at 15% 10%, rgba(18,60,100,0.4) 0%, transparent 55%),
-        radial-gradient(ellipse 60% 80% at 85% 90%, rgba(10,40,80,0.45) 0%, transparent 55%),
-        radial-gradient(ellipse 100% 100% at 50% 50%, rgba(3,15,35,0.6) 0%, transparent 80%);
-      pointer-events: none;
-      z-index: 0;
+    /* PARTICLES */
+    #particles {
+      position: fixed; inset:0;
+      pointer-events: none; z-index:0; overflow:hidden;
+    }
+    .p {
+      position: absolute; border-radius:50%;
+      background: rgba(78,170,230,0.35);
+      animation: drift linear infinite;
+    }
+    @keyframes drift {
+      0%   { transform: translateY(100vh) translateX(0); opacity:0; }
+      10%  { opacity:1; }
+      90%  { opacity:.4; }
+      100% { transform: translateY(-80px) translateX(var(--dx,20px)); opacity:0; }
     }
 
     /* NAV */
     nav {
-      position: fixed;
-      top: 0; left: 0; right: 0;
-      z-index: 100;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1.2rem 4rem;
-      background: rgba(5,13,24,0.88);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
+      position: fixed; top:0; left:0; right:0; z-index:200;
+      display: flex; align-items:center; justify-content:space-between;
+      padding: 1.1rem 3.5rem;
+      background: rgba(2,8,15,0.92);
       border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
     }
     .nav-logo {
-      font-family: var(--font-serif);
-      font-size: 1.05rem;
-      font-weight: 300;
-      letter-spacing: 0.1em;
-      color: var(--accent-bright);
-      text-decoration: none;
+      font-family: var(--serif); font-size:1rem; font-weight:400;
+      color: var(--bright); text-decoration:none; letter-spacing:.06em;
     }
-    .nav-links {
-      display: flex;
-      gap: 2.5rem;
-      list-style: none;
-    }
-    .nav-links a {
-      color: var(--ink-muted);
-      text-decoration: none;
-      font-size: 11px;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--accent-bright); }
+    .nav-logo em { font-style:italic; color:var(--teal); }
+    nav ul { display:flex; gap:2rem; list-style:none; }
+    nav a { color:var(--muted); text-decoration:none; font-size:10px; letter-spacing:.2em; text-transform:uppercase; transition:color .2s; }
+    nav a:hover { color:var(--bright); }
 
     /* MAIN */
-    main { position: relative; z-index: 1; }
+    main { position:relative; z-index:1; }
 
-    /* PAGE HEADER (for inner pages) */
+    /* INNER PAGE HEADER */
     .page-header {
-      padding: 10rem 4rem 4rem;
-      max-width: 900px;
-      margin: 0 auto;
+      padding: 9rem 3.5rem 4rem;
+      max-width: 1100px; margin:0 auto;
     }
-    .page-eyebrow {
-      font-size: 10px;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
+    .eyebrow {
+      font-size:9px; letter-spacing:.35em; text-transform:uppercase;
+      color:var(--teal); margin-bottom:1.2rem;
+      display:flex; align-items:center; gap:.7rem;
     }
-    .page-eyebrow::before {
-      content: '';
-      display: block;
-      width: 28px;
-      height: 1px;
-      background: var(--accent);
-    }
+    .eyebrow::before { content:''; width:20px; height:1px; background:var(--teal); display:block; }
     .page-title {
-      font-family: var(--font-serif);
-      font-size: clamp(2.5rem, 5vw, 4rem);
-      font-weight: 300;
-      line-height: 1.1;
-      color: var(--ink);
+      font-family: var(--serif);
+      font-size: clamp(2.5rem, 4.5vw, 4rem);
+      font-weight:400; line-height:1.08; color:var(--ink);
     }
-    .page-title em {
-      font-style: italic;
-      color: var(--accent-bright);
+    .page-title em { font-style:italic; color:var(--bright); }
+
+    /* CONTENT */
+    .content-wrap {
+      max-width: 1100px; margin:0 auto;
+      padding: 2rem 3.5rem 6rem;
     }
 
-    /* CONTENT AREA */
-    .content-area {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 4rem 6rem;
+    /* SHARED UTILITIES */
+    .section-label {
+      font-size:9px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
+      margin-bottom:2.5rem; display:flex; align-items:center; gap:.8rem;
     }
+    .section-label::after { content:''; flex:1; height:1px; background:var(--border); max-width:120px; }
+
+    .btn {
+      display:inline-block; padding:.65rem 1.6rem;
+      font-family:var(--mono); font-size:10px; letter-spacing:.14em; text-transform:uppercase;
+      text-decoration:none; border:none; cursor:pointer; transition:all .2s;
+    }
+    .btn-primary { background:var(--accent); color:#02080f; font-weight:700; }
+    .btn-primary:hover { background:var(--bright); }
+    .btn-outline { background:transparent; color:var(--muted); border:1px solid var(--border2); }
+    .btn-outline:hover { border-color:var(--accent); color:var(--bright); }
 
     /* FOOTER */
     footer {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding: 2.5rem 2rem;
-      border-top: 1px solid var(--border);
-      color: var(--ink-faint);
-      font-size: 11px;
-      letter-spacing: 0.1em;
+      position:relative; z-index:1; text-align:center;
+      padding:2.5rem 2rem; border-top:1px solid var(--border);
+      color:var(--faint); font-size:10px; letter-spacing:.1em;
     }
-    footer a { color: var(--ink-faint); text-decoration: none; }
-    footer a:hover { color: var(--accent-bright); }
+    footer a { color:var(--faint); text-decoration:none; }
+    footer a:hover { color:var(--accent); }
 
-    /* RESPONSIVE */
-    @media (max-width: 768px) {
-      nav { padding: 1rem 1.5rem; }
-      .nav-links { gap: 1.5rem; }
-      .page-header { padding: 8rem 1.5rem 2rem; }
-      .content-area { padding: 1.5rem 1.5rem 4rem; }
+    @media (max-width:768px) {
+      nav { padding:1rem 1.5rem; }
+      nav ul { gap:1.2rem; }
+      .page-header { padding:8rem 1.5rem 2rem; }
+      .content-wrap { padding:1.5rem 1.5rem 4rem; }
     }
-
-    /* UTILITIES */
-    .section-label {
-      font-size: 10px;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 2.5rem;
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
-    }
-    .section-label::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: var(--border);
-      max-width: 160px;
-    }
-    .btn {
-      display: inline-block;
-      padding: 0.7rem 1.8rem;
-      font-family: var(--font-mono);
-      font-size: 11px;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      text-decoration: none;
-      cursor: pointer;
-      border: none;
-      transition: all 0.2s;
-    }
-    .btn-primary {
-      background: var(--accent);
-      color: #050d18;
-      font-weight: 400;
-    }
-    .btn-primary:hover { background: var(--accent-bright); }
-    .btn-ghost {
-      background: transparent;
-      color: var(--ink-muted);
-      border: 1px solid var(--border);
-    }
-    .btn-ghost:hover { border-color: var(--accent); color: var(--accent-bright); }
   </style>
-  {% if page.extra_css %}{{ page.extra_css }}{% endif %}
 </head>
 <body>
 
+<div id="particles"></div>
+
 <nav>
-  <a href="/" class="nav-logo">A. Reinholdt</a>
-  <ul class="nav-links">
+  <a href="/" class="nav-logo">A. <em>Reinholdt</em></a>
+  <ul>
     <li><a href="/about">About</a></li>
     <li><a href="/research">Research</a></li>
     <li><a href="/posts">Blog</a></li>
@@ -211,14 +150,23 @@
   </ul>
 </nav>
 
-<main>
-  {{ content }}
-</main>
+<main>{{ content }}</main>
 
 <footer>
   <p>© {{ 'now' | date: "%Y" }} Annika Caroline Reinholdt &nbsp;·&nbsp; Marine Genomics &nbsp;·&nbsp;
   <a href="mailto:ozreinholdt@gmail.com">ozreinholdt@gmail.com</a></p>
 </footer>
 
+<script>
+  (function(){
+    var c = document.getElementById('particles');
+    for(var i=0;i<28;i++){
+      var p=document.createElement('div'); p.className='p';
+      var s=Math.random()*3+1;
+      p.style.cssText='width:'+s+'px;height:'+s+'px;left:'+(Math.random()*100)+'%;bottom:-'+(Math.random()*10+5)+'%;animation-duration:'+(Math.random()*18+12)+'s;animation-delay:'+(Math.random()*12)+'s;--dx:'+(( Math.random()-.5)*80)+'px;opacity:'+(Math.random()*.5+.1)+';';
+      c.appendChild(p);
+    }
+  })();
+</script>
 </body>
 </html>
