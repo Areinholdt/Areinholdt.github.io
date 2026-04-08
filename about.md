@@ -165,7 +165,6 @@ permalink: /about/
       <div class="photo-main">
         <img src="/images/portrait.jpg" alt="Annika Reinholdt">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-        <span>Add your portrait photo</span>
       </div>
       <div class="photo-accent">
         <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale">
