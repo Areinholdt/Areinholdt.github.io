@@ -63,7 +63,7 @@ permalink: /research/
 <div class="rw">
 
   <div class="rw-header">
-    <div class="rw-eyebrow">PhD Research Project</div>
+    <div class="rw-eyebrow">Research Project</div>
     <h1>Deep, Dark<br>and <em>Cold</em></h1>
     <p class="lead">
       Convergent Genomics of Arctic Marine Taxa — investigating how Arctic and deep-sea fish
