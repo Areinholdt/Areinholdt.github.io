@@ -106,7 +106,7 @@ permalink: /contact/
     </div>
 
     <div>
-      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <form class="contact-form" action="https://formspree.io/f/mreovonr" method="POST">
         <div class="form-group">
           <label for="name">Name</label>
           <input type="text" id="name" name="name" placeholder="Your full name" required>
