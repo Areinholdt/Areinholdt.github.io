@@ -173,21 +173,7 @@ permalink: /research/
         <p>Deep learning models including PhastCons, phyloHMM, and DeepCons identify conserved and accelerated elements in the regulatory "dark genome" — a major unexplored frontier in Arctic evolutionary biology.</p>
         <div class="tags"><span class="tag">PhastCons</span><span class="tag">phyloHMM</span><span class="tag">DeepCons</span><span class="tag">Deep learning</span></div>
       </div>
-      <div class="meth-card">
-        <h4>Protein structure</h4>
-        <p>3D structures predicted with AlphaFold3 and compared across species using FoldSeek. Structural metrics — stability, domain rearrangements, interface changes — quantify whether molecular changes are subtle or represent major evolutionary leaps.</p>
-        <div class="tags"><span class="tag">AlphaFold3</span><span class="tag">FoldSeek</span></div>
-      </div>
-      <div class="meth-card">
-        <h4>Phylogenomics</h4>
-        <p>Phylogenetic relationships reconstructed from genome-wide data. Diversification rates estimated and linked to deep-sea colonisation events and species richness. Environmental variables integrated to examine correlations with genomic change.</p>
-        <div class="tags"><span class="tag">Phylogenomics</span><span class="tag">Diversification rates</span></div>
-      </div>
-      <div class="meth-card">
-        <h4>AI &amp; machine learning</h4>
-        <p>AI-driven analyses applied across regulatory and protein levels. Background includes AI-based fisheries monitoring and professional experience deploying ML workflows in industrial settings at Netcompany.</p>
-        <div class="tags"><span class="tag">Machine learning</span><span class="tag">Python</span><span class="tag">AWS</span></div>
-      </div>
+  
     </div>
   </div>
 
