@@ -232,7 +232,7 @@ permalink: /about/
   <div class="gallery-label">Field &amp; lab</div>
   <div class="gallery">
     <div class="gallery-item wide">
-      <!-- <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale stranding"> -->
+       <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale stranding"> 
       <div class="img-empty">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
         <span>TVA-kaskelothvalen.jpg — paste image path here</span>
@@ -240,7 +240,7 @@ permalink: /about/
       <span class="gallery-item-label">Sperm whale · Danish waters · Feb 2026</span>
     </div>
     <div class="gallery-item">
-      <div class="img-empty">
+      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6A16 16 0 0 0 12 12.69a16 16 0 0 0 4.09 3.91l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 24 18z"/></svg>
         <span>R/V Tarajoq · Arctic survey</span>
       </div>
