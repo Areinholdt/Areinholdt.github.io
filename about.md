@@ -279,34 +279,5 @@ permalink: /about/
       <span class="gallery-item-label">Photo 7</span>
     </div>
   </div>
-  
-  <!-- SKILLS -->
-  <div class="gallery-label">Skills &amp; tools</div>
-  <div class="skills-grid">
-    <div class="skill-card">
-      <h4>Programming</h4>
-      <p>Python · R · SQL · JavaScript · Bash · AWS · Workflow automation</p>
-    </div>
-    <div class="skill-card">
-      <h4>Bioinformatics</h4>
-      <p>Population genomics · Variant calling · Phylogenetics · dN/dS · AlphaFold3 · FoldSeek</p>
-    </div>
-    <div class="skill-card">
-      <h4>Machine learning</h4>
-      <p>Deep learning for non-coding DNA · PhastCons · phyloHMM · AI-based fisheries tools</p>
-    </div>
-    <div class="skill-card">
-      <h4>Laboratory</h4>
-      <p>DNA extraction · Sequencing prep · Clean-lab procedures · PacBio / Hi-C pipelines</p>
-    </div>
-    <div class="skill-card">
-      <h4>Fieldwork</h4>
-      <p>Biopsy collection · Marine mammal handling · Trawl surveys · Expedition leadership</p>
-    </div>
-    <div class="skill-card">
-      <h4>Communication</h4>
-      <p>Conference speaker · Guest lecturer · Science journalist · Board member DMMS</p>
-    </div>
-  </div>
 
 </div>
