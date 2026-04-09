@@ -14,9 +14,9 @@ permalink: /contact/
   }
   .contact-eyebrow::before { content:''; width:20px; height:1px; background:var(--teal); display:block; }
   .contact-top {
-    display:grid; grid-template-columns:1.4fr 0.6fr;
+    display:grid; grid-template-columns:1fr 1fr;
     gap:5rem; align-items:start; margin-bottom:4rem;
-  }
+  }  
   .contact-left h1 {
     font-family:var(--serif); font-size:clamp(2.8rem,4vw,4.2rem);
     font-weight:400; line-height:1.08; color:var(--ink); margin-bottom:1.2rem;
@@ -65,7 +65,7 @@ permalink: /contact/
   .contact-photo { position:sticky; top:7rem; width:100%; overflow:hidden; border:1px solid var(--border); }
   .contact-photo img {
     width:100%; display:block; object-fit:cover; 
-    aspect-ratio:1/1;
+    min-height:500px;
     object-position: center center;
     filter:brightness(1.0) saturate(1.1); transition:filter .4s;
   }
