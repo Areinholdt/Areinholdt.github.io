@@ -271,7 +271,7 @@ permalink: /about/
       <span class="gallery-item-label">Photo 5</span>
     </div>
     <div class="gallery-item wide">
-      <img src="/images/fish3.jpg" alt="Photo 6"> 
+      <img src="/images/seal.jpg" alt="Photo 6"> 
       <span class="gallery-item-label">Photo 6</span>
     </div>
     <div class="gallery-item">
