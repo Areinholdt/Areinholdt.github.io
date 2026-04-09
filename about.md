@@ -235,7 +235,7 @@ permalink: /about/
        <img src="images/shark_annika1.jpg" alt="Cat shark"> 
       <div class="img-empty">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
-        <span>images/shark_annika1.jpg</span>
+        <span> what is this </span>
       </div>
       <span class="gallery-item-label"> Cat shark · Davis Strait </span>
     </div>
