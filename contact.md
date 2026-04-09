@@ -83,8 +83,7 @@ permalink: /contact/
       <div class="contact-eyebrow">Get in touch</div>
       <h1>Let's talk<br>about the <em>deep</em></h1>
       <p>
-        I am open to collaborations, research partnerships, media enquiries,
-        and conversations about marine genomics, Arctic biology, and ocean conservation.
+        I am open to Research collaborations & data sharing, Genome sequencing partnerships, Fieldwork opportunities,              Media & science communication, Guest lectures, Communication & outreach.
       </p>
 
       <div class="contact-detail">
