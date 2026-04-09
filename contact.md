@@ -73,14 +73,15 @@ permalink: /contact/
   .open-to {
     padding:2rem 2.5rem; background:var(--bg2);
     border:1px solid var(--border); border-left:2px solid var(--teal);
+    max-width:100%;
   }
   .open-to-title {
-    font-size:9px; letter-spacing:.25em; text-transform:uppercase;
+    font-size:12px; letter-spacing:.25em; text-transform:uppercase;
     color:var(--gold); margin-bottom:1.2rem; display:block;
   }
   .open-to-grid { display:grid; grid-template-columns:1fr 1fr; gap:.5rem; }
   .open-to-item {
-    font-size:11.5px; color:var(--muted); padding:.45rem 0;
+    font-size:14px; color:var(--muted); padding:.6rem 0;
     border-bottom:1px solid rgba(80,160,220,0.06);
     display:flex; align-items:center; gap:.6rem; line-height:1.5;
   }
