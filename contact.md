@@ -65,7 +65,8 @@ permalink: /contact/
   .contact-photo { position:sticky; top:7rem; width:100%; overflow:hidden; border:1px solid var(--border); }
   .contact-photo img {
     width:100%; display:block; object-fit:cover; 
-    aspect-ratio:2/3; min-height:500px;
+    aspect-ratio:1/1;
+    object-position: center center;
     filter:brightness(1.0) saturate(1.1); transition:filter .4s;
   }
   .contact-photo:hover img { filter:brightness(0.95) saturate(0.9); }
