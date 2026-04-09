@@ -2,60 +2,114 @@
 layout: default
 ---
 <style>
-  .post-wrap { max-width:740px; margin:0 auto; padding:9rem 3.5rem 6rem; }
+  .post-wrap { 
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 9rem 4rem 6rem;
+    position: relative;
+    z-index: 1;
+  }
+
   .post-meta {
-    font-size:9px; letter-spacing:.28em; text-transform:uppercase; color:var(--teal);
-    margin-bottom:1.5rem; display:flex; align-items:center; gap:.8rem;
+    font-size: 10px; 
+    letter-spacing: 0.25em; 
+    text-transform: uppercase; 
+    color: var(--accent);
+    margin-bottom: 2rem; 
+    display: flex; 
+    align-items: center; 
+    gap: 0.8rem;
   }
-  .post-meta::before { content:''; width:20px; height:1px; background:var(--teal); display:block; }
+
+  .post-meta::before { 
+    content: ''; 
+    width: 28px; 
+    height: 1px; 
+    background: var(--accent); 
+    display: block; 
+  }
+
   .post-title {
-    font-family:var(--serif); font-size:clamp(2rem,4vw,3.2rem);
-    font-weight:400; line-height:1.1; color:var(--ink);
-    margin-bottom:3rem; padding-bottom:2rem; border-bottom:1px solid var(--border);
+    font-family: var(--serif); 
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 400; 
+    line-height: 1.1; 
+    color: var(--ink);
+    margin-bottom: 2.5rem; 
+    padding-bottom: 2rem; 
+    border-bottom: 1px solid var(--border);
   }
+
   .post-body { 
-    color: var(--muted); 
+    color: var(--ink-muted); 
     font-size: 13px; 
     line-height: 2.2;
-    max-width: 720px;
   }
+
   .post-body h2 { 
     font-family: var(--serif); 
-    font-size: 1.8rem; 
+    font-size: 1.6rem; 
     font-weight: 400; 
     color: var(--ink); 
-    margin: 2.5rem 0 1rem 0;
+    margin: 2.5rem 0 1rem;
     line-height: 1.2;
   }
+
   .post-body h3 { 
     font-family: var(--serif); 
-    font-size: 1.3rem; 
-    color: var(--accent-bright); 
-    margin: 1.8rem 0 0.8rem 0;
+    font-size: 1.2rem; 
+    color: var(--ink); 
+    margin: 1.8rem 0 0.8rem;
     font-style: italic; 
   }
+
   .post-body p { 
     margin-bottom: 1.5rem;
-    line-height: 2;
   }
+
   .post-body strong { 
     color: var(--ink); 
-    font-weight: 600;
   }
+
   .post-body em { 
     color: var(--accent-bright); 
     font-style: italic;
   }
+
   .post-body img { 
     width: 100%; 
-    max-width: 600px;
     border: 1px solid var(--border); 
     margin: 2rem 0; 
     display: block; 
   }
+
   .post-body a { 
     color: var(--teal); 
     text-decoration: underline;
+  }
+
+  .post-back {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .post-back a {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .post-back a:hover {
+    color: var(--accent-bright);
+  }
+
+  @media (max-width: 900px) {
+    .post-wrap { 
+      padding: 8rem 1.5rem 4rem; 
+    }
   }
 </style>
 
@@ -64,6 +118,6 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-body">{{ content }}</div>
   <div class="post-back">
-    <a href="/posts" class="btn btn-outline">← All posts</a>
+    <a href="/posts">← Back to all posts</a>
   </div>
 </div>
