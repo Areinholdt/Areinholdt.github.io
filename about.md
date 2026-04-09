@@ -167,10 +167,10 @@ permalink: /about/
   <div class="photo-main">
     <img src="/images/portrait.jpg" alt="Annika Reinholdt">
   </div>
-  <div style="margin-top:1.8rem; width:100%; overflow:hidden; border:1px solid var(--border);">
+  <div style="margin-top:2.8rem; width:100%; overflow:hidden; border:1px solid var(--border);">
   <img src="/images/angler_annika.jpg" alt="Fieldwork" 
-       style="width:100%; height:320px; object-fit:cover; object-position:center 20%;
-              filter:brightness(1.0) saturate(1.0); display:block;">
+       style="width:100%; height:400px; object-fit:cover; object-position:center 20%;
+              filter:brightness(1.1) saturate(1.1); display:block;">
 </div>
 </div>
 
