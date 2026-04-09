@@ -89,7 +89,7 @@ permalink: /contact/
 
       <div class="contact-detail">
         <span class="cd-label">Email</span>
-        <span class="cd-value"><a href="mailto:ozreinholdt@gmail.com">ozreinholdt@gmail.com</a></span>
+        <span class="cd-value"><a href="mailto:annika.reinholdt@sund.ku.dk">annika.reinholdt@sund.ku.dk</a></span>
       </div>
       <div class="contact-detail">
         <span class="cd-label">Location</span>
@@ -101,7 +101,7 @@ permalink: /contact/
       </div>
       <div class="contact-detail">
         <span class="cd-label">Affiliations</span>
-        <span class="cd-value">Globe Institute, UCPH<br>Greenland Institute of Natural Resources<br>Danish Marine Mammal Society</span>
+        <span class="cd-value">Globe Institute, UCPH<br>Danish Marine Mammal Society</span>
       </div>
 
       <div class="contact-open">
@@ -143,7 +143,7 @@ permalink: /contact/
         </div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message</button>
         <p style="font-size:11px;color:var(--ink-faint);margin-top:.5rem;">
-          Or email directly: <a href="mailto:ozreinholdt@gmail.com" style="color:var(--accent-bright);">ozreinholdt@gmail.com</a>
+          Or email directly: <a href="mailto:annika.reinholdt@sund.ku.dk" style="color:var(--accent-bright);">annika.reinholdt@sund.ku.dk</a>
         </p>
       </form>
     </div>
