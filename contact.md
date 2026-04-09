@@ -79,7 +79,7 @@ permalink: /contact/
     font-size:12px; letter-spacing:.25em; text-transform:uppercase;
     color:var(--gold); margin-bottom:1.2rem; display:block;
   }
-  .open-to-grid { display:grid; grid-template-columns:1fr 1fr; gap:.5rem; }
+  .open-to-grid { display:grid; grid-template-columns:1fr; gap:.5rem; }
   .open-to-item {
     font-size:14px; color:var(--muted); padding:.6rem 0;
     border-bottom:1px solid rgba(80,160,220,0.06);
