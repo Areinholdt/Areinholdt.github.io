@@ -101,38 +101,57 @@ permalink: /about/
   .stat-label { font-size: 10px; letter-spacing: .15em; color: var(--ink-faint); text-transform: uppercase; margin-top: .4rem; display:block; }
   
 
-  /* PHOTO GALLERY */
+  /* PHOTO GALLERY — REFINED */
   .gallery-label {
     font-size: 13px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
-    margin-bottom:2rem; display:flex; align-items:center; gap:.8rem;
+    margin-bottom: 2.5rem; display:flex; align-items:center; gap:.8rem;
   }
   .gallery-label::after { content:''; flex:1; height:1px; background:var(--border); max-width:160px; }
+  
   .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 220px;
-    gap: 0.8rem;
+    grid-auto-rows: 260px;
+    gap: 0.5rem;
     margin-bottom: 5rem;
   }
+  
   .gallery-item {
     background: var(--bg-card);
     border: 1px solid var(--border);
     overflow: hidden;
     position: relative;
+    transition: all 0.3s ease;
   }
+  
   .gallery-item.wide { grid-column: span 2; }
-  .gallery-item img { width:100%; height:100%; object-fit:cover; display:block; filter: brightness(0.85) saturate(0.85); transition: filter 0.3s; }
-  .gallery-item:hover img { filter: brightness(0.95) saturate(0.95); }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.82) saturate(0.9) contrast(1.05);
+    transition: filter 0.4s ease;
+  }
+  
+  .gallery-item:hover img {
+    filter: brightness(0.9) saturate(1) contrast(1.08);
+  }
+  
   .gallery-item-label {
-    position: absolute; bottom:.6rem; left:.8rem;
-    font-size: 10px; letter-spacing:.12em; color:var(--ink-muted);
-    text-transform: uppercase; background: rgba(5,13,24,0.65); padding:.15rem .4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+    background: linear-gradient(to top, rgba(5,13,24,0.85), transparent);
+    padding: 1.2rem 1rem 0.8rem 1rem;
+    text-align: left;
   }
-  .img-empty {
-    width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-    flex-direction:column;gap:.5rem;color:var(--ink-faint);font-size:10px;letter-spacing:.1em;
-  }
-
   /* SKILLS */
   .skills-grid {
     display: grid;
@@ -232,43 +251,27 @@ permalink: /about/
   <div class="gallery-label">Field &amp; lab</div>
   <div class="gallery">
     <div class="gallery-item wide">
-       <img src="/images/shark_annika1.jpg" alt="Cat shark"> 
-      <div class="img-empty">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
-        <span> what is this </span>
-      </div>
-      <span class="gallery-item-label"> Cat shark · Davis Strait </span>
+      <img src="/images/shark_annika1.jpg" alt="Cat shark specimen"> 
+      <span class="gallery-item-label">Cat shark · Davis Strait</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.41 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.6A16 16 0 0 0 12 12.69a16 16 0 0 0 4.09 3.91l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 24 18z"/></svg>
-        <span>R/V Tarajoq · Arctic survey</span>
-      </div>
-      <span class="gallery-item-label">GINR · Davis Strait</span>
+      <img src="/images/angler_annika.jpg" alt="Arctic expedition"> 
+      <span class="gallery-item-label">Expedition · Arctic</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/fish2.jpg" alt="Sperm whale stranding"> 
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-        <span>Whitehead Lab · Gully MPA</span>
-      </div>
-      <span class="gallery-item-label">Dalhousie · Jul 2024</span>
+      <img src="/images/fish2.jpg" alt="Fish specimen"> 
+      <span class="gallery-item-label">Field survey</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/whale.jpg" alt="Sperm whale stranding"> 
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        <span>Anholt Island · Seal expedition</span>
-      </div>
-      <span class="gallery-item-label">Field leadership · Jul 2023</span>
+      <img src="/images/whale1.jpg" alt="Marine research"> 
+      <span class="gallery-item-label">Field leadership</span>
     </div>
     <div class="gallery-item wide">
-      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
-        <span>Lab work · Globe Institute, UCPH</span>
-      </div>
-      <span class="gallery-item-label">Copenhagen · 2022–2025</span>
+      <img src="/images/fish.jpg" alt="Lab research"> 
+      <span class="gallery-item-label">Lab work · Globe Institute</span>
     </div>
   </div>
-
+  
   <!-- SKILLS -->
   <div class="gallery-label">Skills &amp; tools</div>
   <div class="skills-grid">
