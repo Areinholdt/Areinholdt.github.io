@@ -248,7 +248,7 @@ permalink: /about/
   </div>
 
 <!-- PHOTO GALLERY -->
-  <div class="gallery-label">Field &amp; lab</div>
+  <div class="gallery-label">Deep Sea Species</div>
   <div class="gallery">
     <div class="gallery-item wide">
       <img src="/images/shark_annika.jpg" alt="Photo 1"> 
