@@ -64,15 +64,10 @@ permalink: /contact/
   .social-link svg { width:14px; height:14px; flex-shrink:0; }
   .contact-photo { position:sticky; top:7rem; width:100%; overflow:hidden; border:1px solid var(--border); }
   .contact-photo img {
-    width:100%; display:block; object-fit:cover; aspect-ratio:2/3;
-    filter:brightness(0.85) saturate(0.8); transition:filter .4s;
+    width:100%; display:block; object-fit:cover; aspect-ratio:3/4;
+    filter:brightness(1.0) saturate(1.1); transition:filter .4s;
   }
   .contact-photo:hover img { filter:brightness(0.95) saturate(0.9); }
-  .contact-photo-caption {
-    padding:.7rem 1rem; background:var(--card);
-    border-top:1px solid var(--border);
-    font-size:9px; letter-spacing:.15em; text-transform:uppercase; color:var(--faint);
-  }
   .open-to {
     padding:2rem 2.5rem; background:var(--bg2);
     border:1px solid var(--border); border-left:2px solid var(--teal);
@@ -174,7 +169,6 @@ permalink: /contact/
     <div>
       <div class="contact-photo">
         <img src="/images/shark_annika1.jpg" alt="Annika Reinholdt — fieldwork">
-        <div class="contact-photo-caption">Fieldwork · Arctic survey</div>
       </div>
     </div>
   </div>
