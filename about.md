@@ -247,28 +247,36 @@ permalink: /about/
     </div>
   </div>
 
-  <!-- PHOTO GALLERY -->
+<!-- PHOTO GALLERY -->
   <div class="gallery-label">Field &amp; lab</div>
   <div class="gallery">
     <div class="gallery-item wide">
-      <img src="/images/shark_annika1.jpg" alt="Cat shark specimen"> 
-      <span class="gallery-item-label">Cat shark · Davis Strait</span>
+      <img src="/images/annika_shark1.jpg" alt="Photo 1"> 
+      <span class="gallery-item-label">Photo 1</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/fish.jpg" alt="Arctic expedition"> 
-      <span class="gallery-item-label">Expedition · Arctic</span>
+      <img src="/images/fish.jpg" alt="Photo 2"> 
+      <span class="gallery-item-label">Photo 2</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/fish2.jpg" alt="Fish specimen"> 
-      <span class="gallery-item-label">Field survey</span>
+      <img src="/images/fish2.jpg" alt="Photo 3"> 
+      <span class="gallery-item-label">Photo 3</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/whale1.JPG" alt="Marine research"> 
-      <span class="gallery-item-label">Field leadership</span>
+      <img src="/images/whale1.JPG" alt="Photo 4"> 
+      <span class="gallery-item-label">Photo 4</span>
+    </div>
+    <div class="gallery-item">
+      <img src="/images/TVA-kaskelothvalen.jpg" alt="Photo 5"> 
+      <span class="gallery-item-label">Photo 5</span>
     </div>
     <div class="gallery-item wide">
-      <img src="/images/fish.jpg" alt="Lab research"> 
-      <span class="gallery-item-label">Lab work · Globe Institute</span>
+      <img src="/images/fish.jpg" alt="Photo 6"> 
+      <span class="gallery-item-label">Photo 6</span>
+    </div>
+    <div class="gallery-item">
+      <img src="/images/photo-7.jpg" alt="Photo 7"> 
+      <span class="gallery-item-label">Photo 7</span>
     </div>
   </div>
   
