@@ -232,12 +232,12 @@ permalink: /about/
   <div class="gallery-label">Field &amp; lab</div>
   <div class="gallery">
     <div class="gallery-item wide">
-       <img src="/images/TVA-kaskelothvalen.jpg" alt="Sperm whale stranding"> 
+       <img src="images/shark_annika1.jpg" alt="Cat shark"> 
       <div class="img-empty">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 12c0 0 2-6 9-6s9 6 9 6-2 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2"/></svg>
-        <span>TVA-kaskelothvalen.jpg — paste image path here</span>
+        <span>images/shark_annika1.jpg</span>
       </div>
-      <span class="gallery-item-label">Sperm whale · Danish waters · Feb 2026</span>
+      <span class="gallery-item-label"> Cat shark · Davis Strait </span>
     </div>
     <div class="gallery-item">
       <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
@@ -247,21 +247,21 @@ permalink: /about/
       <span class="gallery-item-label">GINR · Davis Strait</span>
     </div>
     <div class="gallery-item">
-      <div class="img-empty">
+      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
         <span>Whitehead Lab · Gully MPA</span>
       </div>
       <span class="gallery-item-label">Dalhousie · Jul 2024</span>
     </div>
     <div class="gallery-item">
-      <div class="img-empty">
+      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
         <span>Anholt Island · Seal expedition</span>
       </div>
       <span class="gallery-item-label">Field leadership · Jul 2023</span>
     </div>
     <div class="gallery-item wide">
-      <div class="img-empty">
+      <img src="/images/fish.jpg" alt="Sperm whale stranding"> 
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.4"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
         <span>Lab work · Globe Institute, UCPH</span>
       </div>
