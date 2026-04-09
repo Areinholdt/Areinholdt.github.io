@@ -251,7 +251,7 @@ permalink: /about/
   <div class="gallery-label">Field &amp; lab</div>
   <div class="gallery">
     <div class="gallery-item wide">
-      <img src="/images/annika_shark1.jpg" alt="Photo 1"> 
+      <img src="/images/shark_annika1.jpg" alt="Photo 1"> 
       <span class="gallery-item-label">Photo 1</span>
     </div>
     <div class="gallery-item">
@@ -275,7 +275,7 @@ permalink: /about/
       <span class="gallery-item-label">Photo 6</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/photo-7.jpg" alt="Photo 7"> 
+      <img src="/images/fish.jpg" alt="Photo 7"> 
       <span class="gallery-item-label">Photo 7</span>
     </div>
   </div>
