@@ -211,10 +211,13 @@ permalink: /about/
       </p>
      
       <p>
-        My bioinformatics background covers population genomics, variant calling, phylogenetics,
-        and AI-driven analyses. I previously worked as an IT consultant, where I
-        applied data engineering and workflow automation to industrial problems --- skills I now
-        bring back to evolutionary biology.
+        The Arctic is changing faster than any ecosystem on Earth. 
+        The species that carry these genomic secrets are under 
+        pressure they have never faced before. Understanding how 
+        they adapted — at the molecular level, in the dark genome 
+        nobody has mapped — could change what we know about 
+        adaptation, evolution, and the future of life in extreme 
+        environments. This is frontier science. And it starts now.
       </p>
 
       <div class="stat-row">
