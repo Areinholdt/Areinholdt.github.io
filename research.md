@@ -7,7 +7,7 @@ permalink: /research/
   .rw { max-width:1000px; margin:0 auto; padding:9rem 3.5rem 6rem; position:relative; z-index:1; }
 
   .rw-header { margin-bottom:4.5rem; }
-  .rw-eyebrow { font-size:9px;letter-spacing:.35em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:.7rem;margin-bottom:1.2rem; }
+  .rw-eyebrow { font-size:13px;letter-spacing:.35em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:.7rem;margin-bottom:1.2rem; }
   .rw-eyebrow::before { content:'';width:20px;height:1px;background:var(--teal);display:block; }
   .rw-header h1 { font-family:var(--serif);font-size:clamp(2.5rem,4.5vw,4rem);font-weight:400;line-height:1.08;color:var(--ink);margin-bottom:1.2rem; }
   .rw-header h1 em { font-style:italic;color:var(--bright); }
