@@ -28,6 +28,42 @@ permalink: /research/
   .gv-fill { height:100%; }
   .gv-pct { font-size:10px;min-width:36px;text-align:right; }
 
+  /* SAMPLES STATUS */
+  .samples-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 2rem;
+    margin: 3rem 0;
+  }
+  .samples-box h3 {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+  }
+  .samples-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  .sample-stat {
+    text-align: center;
+  }
+  .sample-num {
+    font-family: var(--serif);
+    font-size: 3rem;
+    color: var(--teal);
+    line-height: 1;
+  }
+  .sample-label {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-top: 0.5rem;
+  }
+
   /* OBJECTIVES */
   .objectives { margin-bottom:3.5rem; }
   .obj-grid { display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:1.5rem; }
@@ -95,6 +131,23 @@ permalink: /research/
         <span class="gv-pct" style="color:var(--accent);">~98%</span>
       </div>
       <div style="font-size:9px;color:var(--faint);margin-top:.3rem;letter-spacing:.08em;">This project's focus — largely unmapped from an evolutionary perspective</div>
+    </div>
+  </div>
+
+  <!-- SAMPLES STATUS -->
+  <div class="samples-box">
+    <h3>Samples collected & sequenced</h3>
+    
+    <div class="samples-grid">
+      <div class="sample-stat">
+        <div class="sample-num">100+</div>
+        <div class="sample-label">Tissue samples collected</div>
+      </div>
+      
+      <div class="sample-stat">
+        <div class="sample-num">2</div>
+        <div class="sample-label">Species sequenced</div>
+      </div>
     </div>
   </div>
 
@@ -172,6 +225,11 @@ permalink: /research/
         <h4>Non-coding DNA</h4>
         <p>Deep learning models including PhastCons, phyloHMM, and DeepCons identify conserved and accelerated elements in the regulatory "dark genome" — a major unexplored frontier in Arctic evolutionary biology.</p>
         <div class="tags"><span class="tag">PhastCons</span><span class="tag">phyloHMM</span><span class="tag">DeepCons</span><span class="tag">Deep learning</span></div>
+      </div>
+       <div class="meth-card">
+        <h4>Protein structure</h4>
+        <p>3D structures predicted with AlphaFold3 and compared across species using FoldSeek. Structural metrics — stability, domain rearrangements, interface changes — quantify whether molecular changes are subtle or represent major evolutionary leaps.</p>
+        <div class="tags"><span class="tag">AlphaFold3</span><span class="tag">FoldSeek</span></div>
       </div>
   
     </div>
