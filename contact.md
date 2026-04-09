@@ -88,7 +88,7 @@ permalink: /contact/
 
       <div class="contact-detail">
         <span class="cd-label">Email</span>
-        <span class="cd-value"><a href="mailto:annika.reinholdt@sund.ku.dk">annika.reinholdt@sund.ku.dk</a></span>
+        <span class="cd-value">annika.reinholdt@sund.ku.dk</span>
       </div>
       <div class="contact-detail">
         <span class="cd-label">Location</span>
@@ -131,8 +131,6 @@ permalink: /contact/
           <textarea id="message" name="message" rows="6" placeholder="What would you like to discuss?" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message</button>
-        <p style="font-size:11px;color:var(--ink-faint);margin-top:.5rem;">
-          Or email directly: <a href="mailto:annika.reinholdt@sund.ku.dk" style="color:var(--accent-bright);">annika.reinholdt@sund.ku.dk</a>
         </p>
       </form>
     </div>
