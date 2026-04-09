@@ -263,7 +263,7 @@ permalink: /about/
       <span class="gallery-item-label">Field survey</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/whale1.jpg" alt="Marine research"> 
+      <img src="/images/whale1.JPG" alt="Marine research"> 
       <span class="gallery-item-label">Field leadership</span>
     </div>
     <div class="gallery-item wide">
