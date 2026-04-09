@@ -102,8 +102,8 @@ permalink: /research/
     <div class="rw-eyebrow">Research Project</div>
     <h1>Deep, Dark<br>and <em>Cold</em></h1>
     <p class="lead">
-      Convergent Genomics of Arctic Marine Taxa — investigating how Arctic and deep-sea fish
-      survive extreme pressure, cold, and darkness by exploring the 98% of the genome
+      Convergent Genomics of Arctic Marine Taxa. Investigating how Arctic and deep-sea species
+      evolve and survive extreme pressure, cold, and darkness by exploring the 98% of the genome
       that most science has never looked at.
     </p>
   </div>
@@ -235,12 +235,10 @@ permalink: /research/
   <div class="collabs">
     <h3>Collaborators &amp; institutions</h3>
     <div class="collab-row">
-      <span class="collab">who who who</span>
       <span class="collab">Natural History Museum of Denmark</span>
-      <span class="collab">who who who</span>
-      <span class="collab">who who who</span>
-      <span class="collab">who who who</span>
-      <span class="collab">who who who</span>
+      <span class="collab">Globe Institute, Univeristy of Copenhagen</span>
+      <span class="collab">Greenland Institute of Natural resources</span>
+      <span class="collab">Fisheries and Oceans Canada</span>
     </div>
   </div>
 
