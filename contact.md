@@ -104,16 +104,6 @@ permalink: /contact/
         <span class="cd-value">Globe Institute, UCPH<br>Danish Marine Mammal Society</span>
       </div>
 
-      <div class="contact-open">
-        <div class="contact-open-title">Open to</div>
-        <p>
-          Research collaborations &amp; data sharing ·
-          Genome sequencing partnerships ·
-          Fieldwork opportunities ·
-          Media &amp; science communication ·
-          Guest lectures &amp; outreach
-        </p>
-      </div>
     </div>
 
     <div>
