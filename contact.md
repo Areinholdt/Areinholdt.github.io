@@ -12,7 +12,7 @@ permalink: /contact/
     display: grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:start;
   }
   .contact-eyebrow {
-    font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
+    font-size:13px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
     margin-bottom:1rem; display:flex; align-items:center; gap:.8rem;
   }
   .contact-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
@@ -22,7 +22,7 @@ permalink: /contact/
     font-weight:300; line-height:1.1; color:var(--ink); margin-bottom:1.2rem;
   }
   .contact-intro h1 em { font-style:italic; color:var(--accent-bright); }
-  .contact-intro p { color:var(--ink-muted); font-size:12.5px; line-height:2.1; margin-bottom:2rem; }
+  .contact-intro p { color:var(--ink-muted); font-size:13px; line-height:2.1; margin-bottom:2rem; }
 
   .contact-detail {
     display:flex; align-items:flex-start; gap:1rem;
@@ -30,10 +30,10 @@ permalink: /contact/
   }
   .contact-detail:last-child { border-bottom:none; }
   .cd-label {
-    font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    font-size:13x; letter-spacing:.18em; text-transform:uppercase;
     color:var(--accent); min-width:80px; padding-top:.1rem;
   }
-  .cd-value { font-size:12.5px; color:var(--ink-muted); line-height:1.6; }
+  .cd-value { font-size:13px; color:var(--ink-muted); line-height:1.6; }
   .cd-value a { color:var(--accent-bright); text-decoration:none; }
   .cd-value a:hover { text-decoration:underline; }
 
@@ -43,7 +43,7 @@ permalink: /contact/
   .contact-open-title {
     font-size:10px; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin-bottom:.8rem;
   }
-  .contact-open p { font-size:12px; color:var(--ink-muted); line-height:1.9; }
+  .contact-open p { font-size:13px; color:var(--ink-muted); line-height:1.9; }
 
   /* FORM */
   .contact-form { display:flex; flex-direction:column; gap:1.2rem; }
@@ -59,7 +59,7 @@ permalink: /contact/
     color: var(--ink);
     padding: .75rem 1rem;
     font-family: var(--mono);
-    font-size: 12.5px;
+    font-size: 13px;
     font-weight: 300;
     outline: none;
     transition: border-color .2s;
