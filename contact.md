@@ -131,7 +131,6 @@ permalink: /contact/
           <textarea id="message" name="message" rows="6" placeholder="What would you like to discuss?" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send message</button>
-        </p>
       </form>
     </div>
   </div>
