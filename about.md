@@ -255,7 +255,7 @@ permalink: /about/
       <span class="gallery-item-label">Cat shark · Davis Strait</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/angler_annika.jpg" alt="Arctic expedition"> 
+      <img src="/images/fish.jpg" alt="Arctic expedition"> 
       <span class="gallery-item-label">Expedition · Arctic</span>
     </div>
     <div class="gallery-item">
