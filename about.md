@@ -178,28 +178,38 @@ permalink: /about/
       <div class="about-intro-label">About me</div>
       <h1>Decoding life<br>in the <em>dark</em></h1>
       <p>
-        I am a bioinformatics scientist with a passion for Arctic marine biology and genomics.
-        My research focuses on how Arctic and deep-sea fish, whales and elasmobranchs survive extreme cold, darkness,
-        and high pressure --- by studying not just the genes that code for proteins,
-        but the 98% of the genome that most studies ignore entirely.
+        I go to places most people will never see — and I bring 
+        back the molecular secrets of the animals that live there.
+      </p>
+      
+      <p>
+        My name is Annika Reinholdt. I am a bioinformatics 
+        scientist specialising in Arctic and deep-sea genomics — 
+        combining ocean expeditions with cutting-edge computational 
+        biology to understand how fish, sharks, and whales not 
+        only survive, but thrive, at the very extremes of life 
+        on Earth.
       </p>
 
       <blockquote>
-        <p>"During an Arctic research expedition, I held a rare deep-sea anglerfish in my hands.
-        Its bizarre appearance and intact light organ left me fascinated me deeply. That encounter sparked
-        my ambition to understand how species survive and adapt to extreme environments."</p>
+          <p>"On a night shift during an Arctic expedition, a deep-sea anglerfish 
+          came up in the trawl net — bioluminescent lure still glowing, 
+          from a world 1500 metres below. I held it in my hands. 
+          I took a tissue sample. And I thought: whatever survival 
+          looks like at that depth, it is written somewhere in here. 
+          I am going to find it."</p>
       </blockquote>
 
       <p>
-        With a background spanning fieldwork at sea, clean-lab DNA work, and large-scale
-        computational analysis, I bridge the ocean and the terminal. I have participated in
-        Arctic fish and marine mammal surveys, led seal-handling expeditions, and worked 
-        extensively with marine mammals in both field and post-mortem settings.
-        My experience includes whale necropsies, biopsy sampling, and photo-identification of beaked whales.
-        In addition, I am proficient in identifying Arctic fish and shark taxa,
-        combining hands-on field expertise with genomic research to better
-        understand adaptation in extreme environments.
+        Most genomic research has explored only 2% of the genome — 
+        the part that codes for proteins. The other 98%, the 
+        regulatory dark genome, controls when and how those proteins 
+        are made. In Arctic deep-sea animals, that 98% may hold 
+        the most remarkable biological solutions on the planet. 
+        Almost no one has looked there. That is exactly where 
+        I am going.
       </p>
+     
       <p>
         My bioinformatics background covers population genomics, variant calling, phylogenetics,
         and AI-driven analyses. I previously worked as an IT consultant, where I
