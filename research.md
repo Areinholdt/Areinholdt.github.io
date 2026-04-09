@@ -214,22 +214,18 @@ permalink: /research/
       <div class="meth-card">
         <h4>Genome dataset</h4>
         <p>15–20 deep-sea species genomes alongside shallow-water relatives. New chromosome-level assemblies generated using PacBio/Hi-C pipelines at Yggdrasil laboratory. Contributed to the Vertebrate Genomes Project and Darwin Tree of Life.</p>
-        <div class="tags"><span class="tag">PacBio</span><span class="tag">Hi-C</span><span class="tag">Yggdrasil</span></div>
       </div>
       <div class="meth-card">
         <h4>Coding region analysis</h4>
         <p>Selection tested using dN/dS ratios and site-specific models to detect accelerated or conserved genes. Gene ontology and pathway analyses link genes to biological functions relevant to deep-sea adaptation.</p>
-        <div class="tags"><span class="tag">dN/dS</span><span class="tag">Gene ontology</span><span class="tag">Pathway analysis</span></div>
       </div>
       <div class="meth-card">
         <h4>Non-coding DNA</h4>
         <p>Deep learning models including PhastCons, phyloHMM, and DeepCons identify conserved and accelerated elements in the regulatory "dark genome" — a major unexplored frontier in Arctic evolutionary biology.</p>
-        <div class="tags"><span class="tag">PhastCons</span><span class="tag">phyloHMM</span><span class="tag">DeepCons</span><span class="tag">Deep learning</span></div>
       </div>
        <div class="meth-card">
         <h4>Protein structure</h4>
         <p>3D structures predicted with AlphaFold3 and compared across species using FoldSeek. Structural metrics — stability, domain rearrangements, interface changes — quantify whether molecular changes are subtle or represent major evolutionary leaps.</p>
-        <div class="tags"><span class="tag">AlphaFold3</span><span class="tag">FoldSeek</span></div>
       </div>
   
     </div>
