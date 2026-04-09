@@ -9,7 +9,7 @@ permalink: /posts/
     position:relative; z-index:1;
   }
   .posts-eyebrow {
-    font-size:10px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
+    font-size:13px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
     margin-bottom:1rem; display:flex; align-items:center; gap:.8rem;
   }
   .posts-eyebrow::before { content:''; width:28px; height:1px; background:var(--accent); display:block; }
@@ -67,7 +67,7 @@ permalink: /posts/
 
 <div class="posts-wrap">
   <div class="posts-header">
-    <div class="posts-eyebrow">Field notes &amp; updates</div>
+    <div class="posts-eyebrow">Field notes &amp; Project updates</div>
     <h1>From the <em>deep</em></h1>
     <p>
       Dispatches from the lab, the ship, and the ocean floor.
