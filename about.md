@@ -54,7 +54,7 @@ permalink: /about/
   }
   .photo-accent img { width:100%; height:100%; object-fit:cover; display:block; filter: brightness(0.9); }
   .about-intro-label {
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: var(--accent);
@@ -103,7 +103,7 @@ permalink: /about/
 
   /* PHOTO GALLERY */
   .gallery-label {
-    font-size: 10px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
+    font-size: 13px; letter-spacing:.3em; text-transform:uppercase; color:var(--accent);
     margin-bottom:2rem; display:flex; align-items:center; gap:.8rem;
   }
   .gallery-label::after { content:''; flex:1; height:1px; background:var(--border); max-width:160px; }
