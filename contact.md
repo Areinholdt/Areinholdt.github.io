@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 <style>
   .contact-wrap {
-    max-width: 100%; margin:0 auto; padding:9rem 3.5rem 6rem;
+    max-width: 1000px; margin:0 auto; padding:9rem 3.5rem 6rem;
     position:relative; z-index:1;
   }
   .contact-eyebrow {
@@ -73,7 +73,7 @@ permalink: /contact/
   .open-to {
     padding:2rem 2.5rem; background:var(--bg2);
     border:1px solid var(--border); border-left:2px solid var(--teal);
-    max-width:100%;
+    width:100%;
   }
   .open-to-title {
     font-size:12px; letter-spacing:.25em; text-transform:uppercase;
