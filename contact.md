@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 <style>
   .contact-wrap {
-    max-width: 1000px; margin:0 auto; padding:9rem 3.5rem 6rem;
+    max-width: 100%; margin:0 auto; padding:9rem 3.5rem 6rem;
     position:relative; z-index:1;
   }
   .contact-eyebrow {
