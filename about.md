@@ -251,7 +251,7 @@ permalink: /about/
   <div class="gallery-label">Deep Sea Species</div>
   <div class="gallery">
     <div class="gallery-item wide">
-      <img src="/images/shark_annika.jpg" alt="Photo 1"> 
+      <img src="/images/whale1.JPG" alt="  Northern Bottlnose Whale"> 
       <span class="gallery-item-label">Photo 1</span>
     </div>
     <div class="gallery-item">
