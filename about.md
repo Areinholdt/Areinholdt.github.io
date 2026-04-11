@@ -197,46 +197,49 @@ permalink: /about/
       <div class="about-intro-label">About me</div>
       <h1>Decoding life<br>in the <em>dark</em></h1>
       <p>
-        I go to places most people will never see — and I bring 
+        I go to places most people will never see - and I bring 
         back the molecular secrets of the animals that live there.
       </p>
       
       <p>
-        My name is Annika Reinholdt. I am a bioinformatics 
-        scientist specialising in Arctic and deep-sea genomics — 
-        combining ocean expeditions with cutting-edge computational 
-        biology to understand how fish, sharks, and whales not 
-        only survive, but thrive, at the very extremes of life 
-        on Earth.
+        We know more about the surface of the Moon than we do about the deep 
+        sea - the largest habitat on Earth, home to fish, sharks, skates 
+        and whales living under crushing pressure, freezing cold, 
+        and complete darkness. I am a scientist who goes there 
+        to find out how.
       </p>
 
+      <p>
+        My name is Annika Reinholdt. I read the DNA of deep-sea 
+        animals, combining ocean expeditions with computational 
+        biology to understand how life thrives at the very 
+        extremes of existence on Earth.
+      </p>
+      
       <blockquote>
-          <p>"On a night shift during an Arctic expedition, a deep-sea anglerfish 
-          came up in the trawl net — bioluminescent lure still glowing, 
-          from a world 1500 metres below. I held it in my hands. 
-          I took a tissue sample. And I thought: whatever survival 
-          looks like at that depth, it is written somewhere in here. 
-          I am going to find it."</p>
+          <p>"On a night shift during an Arctic expedition, a deep-sea 
+              anglerfish came up in the trawl net. Its bioluminescent lure 
+              was still glowing, from a world 1500 metres below. I held it 
+              in my hands. I took a tissue sample. And I thought: whatever 
+              survival looks like at that depth, it is written somewhere 
+              in here. I am going to find it."</p>
       </blockquote>
 
       <p>
-        Most genomic research has explored only 2% of the genome — 
-        the part that codes for proteins. The other 98%, the 
-        regulatory dark genome, controls when and how those proteins 
-        are made. In Arctic deep-sea animals, that 98% may hold 
-        the most remarkable biological solutions on the planet. 
-        Almost no one has looked there. That is exactly where 
-        I am going.
+        Most genomic research has explored only 2% of the genome, 
+        the part that codes for proteins. The other 98% acts like 
+        a control panel, switching genes on and off and shaping 
+        how animals survive. In deep-sea animals, that control panel 
+        has been shaped by millions of years of evolution under 
+        the most extreme conditions on Earth. Those adaptations 
+        are written in the genome, waiting to be read. 
+        Almost no one has looked there yet. 
+        That is where my research begins.
       </p>
      
       <p>
-        The Arctic is changing faster than any ecosystem on Earth. 
-        The species that carry these genomic secrets are under 
-        pressure they have never faced before. Understanding how 
-        they adapted — at the molecular level, in the dark genome 
-        nobody has mapped — could change what we know about 
-        adaptation, evolution, and the future of life in extreme 
-        environments. This is frontier science. And it starts now.
+        I have held the answers in my hands. 
+        Now I am going to read them.
       </p>
 
       <div class="stat-row">
