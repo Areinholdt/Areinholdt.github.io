@@ -81,7 +81,7 @@ permalink: /research/
       </p>
     </div>
     <div style="overflow:hidden;border:1px solid var(--border);">
-      <img src="/images/angler_annika.jpg" alt="Deep-sea fieldwork"
+      <img src="/images/fish3.jpg" alt="Deep-sea fieldwork"
        style="width:100%;height:100%;min-height:0;max-height:400px;object-fit:cover;display:block;
               filter:brightness(0.85) saturate(0.85);object-position:center 20%;">
   </div>
