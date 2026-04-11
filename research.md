@@ -76,7 +76,7 @@ permalink: /research/
         This project goes into the other 98%, the part that acts 
         like a control panel, switching genes on and off and 
         shaping how animals survive. No one has mapped this in 
-        Arctic deep-sea fish, sharks, and whales. 
+        Arctic deep-sea fish, sharks, skates, ghostsharks and whales. 
         That is what this project sets out to do.
       </p>
     </div>
