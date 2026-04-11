@@ -6,30 +6,8 @@ permalink: /research/
 <style>
   .rw { max-width:1000px; margin:0 auto; padding:9rem 3.5rem 6rem; position:relative; z-index:1; }
 
-  .rw-header { margin-bottom:4.5rem; }
   .rw-eyebrow { font-size:13px;letter-spacing:.35em;text-transform:uppercase;color:var(--teal);display:flex;align-items:center;gap:.7rem;margin-bottom:1.2rem; }
   .rw-eyebrow::before { content:'';width:20px;height:1px;background:var(--teal);display:block; }
-  .rw-header h1 { font-family:var(--serif);font-size:clamp(2.5rem,4.5vw,4rem);font-weight:400;line-height:1.08;color:var(--ink);margin-bottom:1.2rem; }
-  .rw-header h1 em { font-style:italic;color:var(--bright); }
-  .rw-header .lead { color:var(--muted);font-size:12.5px;line-height:2.2;max-width:640px; }
-
-  /* HERO PHOTO */
-  .rw-photo {
-    width:100%; height:420px; overflow:hidden;
-    border:1px solid var(--border); margin-bottom:3.5rem;
-    position:relative;
-  }
-  .rw-photo img {
-    width:100%; height:100%; object-fit:cover; display:block;
-    filter:brightness(0.75) saturate(0.8);
-    object-position: center center;
-  }
-  .rw-photo-label {
-    position:absolute; bottom:1rem; left:1.2rem;
-    font-size:9px; letter-spacing:.18em; text-transform:uppercase;
-    color:rgba(212,232,248,0.7); background:rgba(2,8,15,0.65);
-    padding:.2rem .5rem;
-  }
 
   /* GENOME BAR */
   .genome-vis {
@@ -47,10 +25,7 @@ permalink: /research/
   .gv-pct { font-size:10px;min-width:36px;text-align:right; }
 
   /* SAMPLES */
-  .samples-box {
-    background:var(--card); border:1px solid var(--border);
-    padding:2rem; margin:3rem 0;
-  }
+  .samples-box { background:var(--card);border:1px solid var(--border);padding:2rem;margin:3rem 0; }
   .samples-box h3 { font-family:var(--serif);font-size:1.2rem;font-weight:400;color:var(--ink);margin-bottom:1.5rem; }
   .samples-grid { display:grid;grid-template-columns:1fr 1fr;gap:2rem; }
   .sample-stat { text-align:center; }
@@ -82,40 +57,34 @@ permalink: /research/
 
   @media(max-width:768px){
     .rw { padding:8rem 1.5rem 4rem; }
+    .rw-hero { grid-template-columns:1fr !important; }
     .genome-vis { grid-template-columns:1fr; }
     .obj-grid { grid-template-columns:1fr; }
     .meth-grid { grid-template-columns:1fr; }
-    .rw-photo { height:260px; }
   }
 </style>
 
 <div class="rw">
 
-  <div class="rw-header">
-    <div class="rw-eyebrow">Research Project</div>
-    <h1>Deep, Dark<br>and <em>Cold</em></h1>
-    <p class="lead">
-      Most genomic research has explored only 2% of the genome. 
-      This project goes into the other 98%, the part that acts 
-      like a control panel, switching genes on and off and 
-      shaping how animals survive. No one has mapped this in 
-      Arctic deep-sea fish, sharks, and whales. 
-      That is what this project sets out to do.
-    </p>
-  </div>
-
-  <!-- HERO PHOTO -->
-  <div class="rw-photo">
-    <!--
-      Add a dramatic deep-sea fish photo here.
-      Uncomment the img tag and delete the placeholder div.
-      <img src="/images/your-deep-sea-fish.jpg" alt="Deep-sea specimen">
-    -->
-    <div style="width:100%;height:100%;background:var(--bg3);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:.8rem;color:var(--faint);font-size:10px;letter-spacing:.15em;">
-      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.6" opacity=".4"><ellipse cx="12" cy="12" rx="8" ry="5"/><path d="M4,14 Q8,20 12,18 Q16,20 20,14"/><circle cx="7" cy="10" r="1.5"/></svg>
-      <span>Add a deep-sea fish photo here</span>
+  <!-- HEADER WITH PHOTO -->
+  <div class="rw-hero" style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;margin-bottom:4.5rem;">
+    <div>
+      <div class="rw-eyebrow">Research Project</div>
+      <h1 style="font-family:var(--serif);font-size:clamp(2.5rem,4.5vw,4rem);font-weight:400;line-height:1.08;color:var(--ink);margin-bottom:1.5rem;">Deep, Dark<br>and <em style="font-style:italic;color:var(--bright);">Cold</em></h1>
+      <p style="color:var(--muted);font-size:12.5px;line-height:2.2;">
+        Most genomic research has explored only 2% of the genome. 
+        This project goes into the other 98%, the part that acts 
+        like a control panel, switching genes on and off and 
+        shaping how animals survive. No one has mapped this in 
+        Arctic deep-sea fish, sharks, and whales. 
+        That is what this project sets out to do.
+      </p>
     </div>
-    <span class="rw-photo-label">Deep-sea specimen · North Atlantic</span>
+    <div style="overflow:hidden;border:1px solid var(--border);">
+      <img src="/images/angler_annika.jpg" alt="Deep-sea fieldwork"
+           style="width:100%;height:100%;min-height:420px;object-fit:cover;display:block;
+                  filter:brightness(0.85) saturate(0.85);object-position:center 20%;">
+    </div>
   </div>
 
   <!-- GENOME VISUALISATION -->
