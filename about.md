@@ -267,7 +267,7 @@ permalink: /about/
     </div>
     <div class="gallery-item">
       <img src="/images/whale1.JPG" alt="Northern Bottlnose Whale"> 
-      <span class="gallery-item-label">Photo 4</span>
+      <span class="gallery-item-label">Northern Bottlnose Whale</span>
     </div>
     <div class="gallery-item">
       <img src="/images/shark2.jpg" alt="Photo 5"> 
