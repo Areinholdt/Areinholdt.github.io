@@ -254,7 +254,7 @@ permalink: /about/
   <div class="gallery-label">Deep Sea Species</div>
   <div class="gallery">
     <div class="gallery-item wide">
-      <img src="/images/whale1.JPG" alt="  Northern Bottlnose Whale"> 
+      <img src="/images/whale1.JPG" alt="Northern Bottlnose Whale"> 
       <span class="gallery-item-label">Photo 1</span>
     </div>
     <div class="gallery-item">
@@ -266,12 +266,12 @@ permalink: /about/
       <span class="gallery-item-label">Photo 3</span>
     </div>
     <div class="gallery-item">
-      <img src="/images/whale1.JPG" alt="Photo 4"> 
+      <img src="/images/whale1.JPG" alt="Northern Bottlnose Whale"> 
       <span class="gallery-item-label">Photo 4</span>
     </div>
     <div class="gallery-item">
       <img src="/images/shark2.jpg" alt="Photo 5"> 
-      <span class="gallery-item-label">Photo 5</span>
+      <span class="gallery-item-label">Greenland shark</span>
     </div>
     <div class="gallery-item wide">
       <img src="/images/seal.jpg" alt="Photo 6"> 
