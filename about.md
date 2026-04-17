@@ -259,7 +259,7 @@ permalink: /about/
     </div>
     <div class="gallery-item">
       <img src="/images/fish.jpg" alt="Photo 2"> 
-      <span class="gallery-item-label">Photo 2</span>
+      <span class="gallery-item-label">Large-eye snaggletooth</span>
     </div>
     <div class="gallery-item">
       <img src="/images/fish2.jpg" alt="Photo 3"> 
