@@ -263,7 +263,7 @@ permalink: /about/
     </div>
     <div class="gallery-item">
       <img src="/images/fish2.jpg" alt="Photo 3"> 
-      <span class="gallery-item-label">Photo 3</span>
+      <span class="gallery-item-label">Deep sea perch</span>
     </div>
     <div class="gallery-item">
       <img src="/images/whale1.JPG" alt="Northern Bottlnose Whale"> 
