@@ -202,8 +202,8 @@ permalink: /about/
       </p>
       
       <p>
-        We know more about the surface of the Moon than we do about the deep 
-        sea - the largest habitat on Earth, home to fish, sharks, skates 
+       We have robots on Mars yet we barely have eyes on the deep sea - 
+        the largest habitat on Earth, home to fish, sharks, skates 
         and whales living under crushing pressure, freezing cold, 
         and complete darkness. I am a scientist who goes there 
         to find out how.
